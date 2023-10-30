@@ -1,0 +1,1801 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="iav3D" id="iav3D">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="height" type="float"></SimpleField>
+	<SimpleField name="image" type="string"></SimpleField>
+	<SimpleField name="info" type="string"></SimpleField>
+	<SimpleField name="color" type="string"></SimpleField>
+	<SimpleField name="hover_color" type="string"></SimpleField>
+	<SimpleField name="extrude" type="float"></SimpleField>
+	<SimpleField name="height_half" type="int"></SimpleField>
+	<SimpleField name="group" type="string"></SimpleField>
+</Schema>
+<Folder><name>iav3D</name>
+  <Placemark>
+	<name>Sc. Géomatiques et Ing. Topographique</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dep_topo.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;sciences géomatiques et ingénierie topographique&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86668898299996,33.9764846580001,0 -6.86674847699993,33.976523421,0 -6.86677211599994,33.9764996100001,0 -6.86666716699995,33.976429583,0 -6.86677833499994,33.97631231,0 -6.86695945799994,33.9764314810001,0 -6.86696421899995,33.976426458,0 -6.86697581599998,33.9764142240001,0 -6.86700995,33.9764368530001,0 -6.86702809499997,33.9764181520001,0 -6.86696190499993,33.97637415,0 -6.86695209599998,33.9763670570001,0 -6.86712202399997,33.97618972,0 -6.86733584299998,33.976332804,0 -6.86716614399995,33.9765107440001,0 -6.86711982099996,33.9764798350001,0 -6.8671078699999,33.976492266,0 -6.86703592799995,33.976567098,0 -6.86702416799994,33.97657933,0 -6.86718102099996,33.976683586,0 -6.86710594599998,33.9767624460001,0 -6.86705575599996,33.9767297770001,0 -6.86698026299996,33.97680732,0 -6.86689009399993,33.976746919,0 -6.86681489699993,33.9768249540001,0 -6.86661562699993,33.9766931230001,0 -6.86669024199995,33.976614625,0 -6.86661389699998,33.976564017,0 -6.86668898299996,33.9764846580001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Résidence APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="height">13</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/apesa.png</SimpleData>
+		<SimpleData name="info">• Pavillons &lt;b&gt;&lt;i&gt;E ⁄ F&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#193600</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">residence</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86762456699995,33.9731889820001,0 -6.86755186599993,33.973144383,0 -6.86760086599998,33.973089483,0 -6.86717616599998,33.9728290830001,0 -6.86744166699998,33.972531283,0 -6.86758176699993,33.9726171830001,0 -6.86756426599993,33.972636783,0 -6.86759596599995,33.972656283,0 -6.86744826699993,33.9728218830001,0 -6.86748276599997,33.972843083,0 -6.86746036599993,33.972868082,0 -6.86765686599995,33.972988683,0 -6.86763686599994,33.9730110830001,0 -6.86773146699994,33.973069083,0 -6.86762456699995,33.9731889820001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Génie Rural</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/stage.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;Génie Rural, Energie &amp; Agroéquipement&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86585551692291,33.9774754546538,56.5674 -6.8656766668299,33.9773050574943,-8.78710000000137 -6.86589642321681,33.9771512450882,-14.1079 -6.86606765712194,33.977319444549,56.7865 -6.86606715119615,33.9773219952137,0 -6.86585551692291,33.9774754546538,56.5674</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Laboratoire Anatomie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/anatomy.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86769864599995,33.975648721,0 -6.86770290199996,33.9756515060001,0 -6.86763337699995,33.9757252700001,0 -6.86780790399996,33.9758394420001,0 -6.86771230699998,33.9759408680001,0 -6.86774380699995,33.9759614750001,0 -6.86763632,33.976075564,0 -6.86742597699993,33.975938017,0 -6.86746633601201,33.9758933568039,0 -6.86739888685283,33.9758488502823,0 -6.8673797331006,33.9758681176054,0 -6.86736834870604,33.975879849834,0 -6.86726295613413,33.9758136735466,0 -6.8673969815179,33.9756694865408,0 -6.86750512699415,33.9757413111393,0 -6.86741212421298,33.975838951792,0 -6.86747846377162,33.9758823759746,0 -6.86756561299995,33.9757898660001,0 -6.86757764699996,33.975777099,0 -6.86769864599995,33.975648721,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Parasitologie ⁄ Maladie Parasitaires</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/parasitology.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86656899499997,33.975990343,0 -6.86665940699993,33.97589678,0 -6.86682422599995,33.976007107,0 -6.86683914399992,33.975991643,0 -6.86684302499998,33.9759942420001,0 -6.86672209699998,33.976119596,0 -6.86671821699997,33.9761169970001,0 -6.86673313399996,33.9761015330001,0 -6.86656899499997,33.975990343,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Histologie ⁄ Anatomie Patologique</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/anatomie_pato.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86684928299996,33.9756961840001,0 -6.86701723399995,33.975806984,0 -6.86703207399995,33.9757914680001,0 -6.86703596799993,33.9757940530001,0 -6.86691694199993,33.975918501,0 -6.86691304699997,33.9759159160001,0 -6.86692788799996,33.9759004,0 -6.86676200099993,33.9757902740001,0 -6.86684928299996,33.9756961840001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Pharmacie, Toxicologie ⁄ Biochimie Médicale</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/toxicologie.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86704209399994,33.9754920450001,0 -6.86721170399994,33.975604934,0 -6.86724278299994,33.975572523,0 -6.86724667299995,33.975575113,0 -6.86711006699994,33.975717569,0 -6.86710617699993,33.9757149810001,0 -6.86712104099996,33.975699481,0 -6.86695143,33.9755865920001,0 -6.86704209399994,33.9754920450001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Département Pharmacie ⁄ Toxicologie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/toxicologie.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86693974799994,33.9755169430001,0 -6.86680555299995,33.9756540490001,0 -6.86678030199994,33.975636894,0 -6.86676313299995,33.9756544370001,0 -6.8667376299999,33.9756371120001,0 -6.86675496099997,33.975619142,0 -6.86659667599997,33.9755180170001,0 -6.86672770599995,33.9753786100001,0 -6.86693974799994,33.9755169430001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Laboratoire Photozologie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/photozologie.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86713957299997,33.975299057,0 -6.86714336799997,33.9753016020001,0 -6.86698716599994,33.9754632680001,0 -6.86698337099995,33.9754607240001,0 -6.86699826399996,33.9754452650001,0 -6.86682578299997,33.9753299440001,0 -6.86681087899996,33.975345417,0 -6.86680699499993,33.975342821,0 -6.86692423699998,33.975221107,0 -6.86692812099994,33.9752237050001,0 -6.86691666599995,33.9752355970001,0 -6.86708943,33.975351115,0 -6.86713957299997,33.975299057,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Physiologie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/classe_physiologie.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">aeb58e</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">class</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86749349799993,33.9755718110001,0 -6.86732374,33.975460755,0 -6.86729401199995,33.9754922970001,0 -6.86728976399996,33.9754895040001,0 -6.86731948299996,33.9754579720001,0 -6.86741477499993,33.9753567330001,0 -6.86758905599993,33.9754707480001,0 -6.86749349799993,33.9755718110001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bloc de Reproduction d'Obsterique</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/reproduction_obsterique.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">aeb58e</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">bloc</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86745420699998,33.975222511,0 -6.86746911099993,33.9752070370001,0 -6.86747333299996,33.9752098600001,0 -6.86733763399997,33.9753503900001,0 -6.86733393599997,33.9753478910001,0 -6.86736372799993,33.975316961,0 -6.86719794299995,33.975206117,0 -6.86716000299998,33.9752455030001,0 -6.86715628799993,33.9752430190001,0 -6.86728501199997,33.9751093880001,0 -6.86745420699998,33.975222511,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Médecine ⁄ Chirurgie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/chirurgie.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86749938199995,33.974888725,0 -6.86750358899997,33.974891562,0 -6.86748404299993,33.97491168,0 -6.86762320899993,33.975005519,0 -6.86766703099994,33.9749604090001,0 -6.86769183499996,33.974977134,0 -6.86769708899993,33.974971727,0 -6.86770129599995,33.974974564,0 -6.86765222,33.9750250810001,0 -6.86754627599993,33.975134133,0 -6.86754205499994,33.975131312,0 -6.86755703699993,33.975115891,0 -6.86738832899994,33.9750021310001,0 -6.86749938199995,33.974888725,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Département Reproduction Animale</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/repro_animale.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86720586399997,33.9751497440001,0 -6.86718336799993,33.9751347710001,0 -6.86715229,33.9751671810001,0 -6.86704133399996,33.97509333,0 -6.86715923099996,33.9749703840001,0 -6.86716295299993,33.974972861,0 -6.86714808799996,33.974988361,0 -6.8672525699999,33.9750582,0 -6.86721585099997,33.975096321,0 -6.86723975399997,33.975113304,0 -6.86720586399997,33.9751497440001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Salle Autopsie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/salle_dautopsie.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86652939499993,33.9748256170001,0 -6.86641625399994,33.9747497280001,0 -6.86655802299993,33.974605717,0 -6.86667435499993,33.974675609,0 -6.86653251599995,33.974822386,0 -6.86660081,33.9748681930001,0 -6.86659768899995,33.9748714250001,0 -6.86652939499993,33.9748256170001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Département Hygiène Alimentaire</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/hygiene_alime.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;industries agro-alimentaires&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86644724499996,33.974905645,0 -6.86645195499995,33.9749088250001,0 -6.86633062799996,33.975033524,0 -6.86632591799997,33.9750303430001,0 -6.86634091399998,33.9750149320001,0 -6.86617273899998,33.9749013580001,0 -6.86615774399996,33.97491677,0 -6.86615303399998,33.97491359,0 -6.86627436099997,33.974788892,0 -6.86627907099995,33.974792071,0 -6.86626407499995,33.9748074840001,0 -6.8664322499999,33.9749210570001,0 -6.86644724499996,33.974905645,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Industries Agro-Alimentaires</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="height">6</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dpt_agro.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;industries agro-alimentaires&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86605226599994,33.9749302490001,0 -6.86587223299995,33.9751228860001,0 -6.86581731699994,33.9751801420001,0 -6.86581267,33.9751770410001,0 -6.86582464499998,33.9751645810001,0 -6.86565516599995,33.9750515210001,0 -6.86564319099995,33.9750639810001,0 -6.86563854199994,33.9750608800001,0 -6.8659350099999,33.97475289,0 -6.86593897799997,33.974755541,0 -6.86592766899997,33.97476729,0 -6.86609537399994,33.9748793380001,0 -6.86610668299994,33.974867589,0 -6.86611065199997,33.9748702410001,0 -6.86605226599994,33.9749302490001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Industries Agro-Alimentaires</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="height">10</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dpt_agro.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;industries agro-alimentaires&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86573184899993,33.97502983,0 -6.86591529,33.9748377450001,0 -6.86620127099997,33.9750308770001,0 -6.86617711499997,33.9750557040001,0 -6.86601784199996,33.975219404,0 -6.86597309199993,33.9751897400001,0 -6.86597631,33.9751863720001,0 -6.86597232899993,33.9751837330001,0 -6.86594889399993,33.9752082730001,0 -6.8659052699999,33.9751793570001,0 -6.86592870599998,33.975154816,0 -6.86592472499996,33.975152178,0 -6.86592150699994,33.9751555460001,0 -6.86573184899993,33.97502983,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Industries Agro-Alimentaires</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="height">6</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dpt_agro.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;industries agro-alimentaires&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86608348199996,33.975151941,0 -6.86617711499997,33.9750557040001,0 -6.86625707299993,33.9751097010001,0 -6.86616425799997,33.975205827,0 -6.86608348199996,33.975151941,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Salles TP APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/td.png</SimpleData>
+		<SimpleData name="info">• &lt;b&gt;&lt;i&gt;Année Préparatoire aux Etudes Supérieurs en Agronomie&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86858585374387,33.9729996526087,0 -6.86875824018833,33.9728111678714,0 -6.8688817938167,33.9728855427405,0 -6.86870656621827,33.9730779971111,0 -6.86858585374387,33.9729996526087,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Industries Agro-Alimentaires</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="height">2</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dpt_agro.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;industries agro-alimentaires&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86606303299993,33.975172957,0 -6.86614680599996,33.9752295320001,0 -6.86612447899995,33.975252761,0 -6.86617787599994,33.975288382,0 -6.86620493899994,33.9752602230001,0 -6.86619006699993,33.975250304,0 -6.86623336599996,33.97520525,0 -6.86634050599997,33.975276723,0 -6.86627014399994,33.9753499340001,0 -6.86617787599994,33.975288382,0 -6.86615158,33.9753157430001,0 -6.86609818199997,33.9752801230001,0 -6.86612447899995,33.975252761,0 -6.86604054,33.975196075,0 -6.86606303299993,33.975172957,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Département Halieutique</name>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dpt_halieu.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;halieutique&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<name>Industries Agro-Alimentaires</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dpt_iaa.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;industries agro-alimentaires&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86622166799998,33.974682629,0 -6.86624839699994,33.9746566090001,0 -6.86627162099995,33.9746725300001,0 -6.86628798399994,33.974683747,0 -6.86630000499997,33.9746919880001,0 -6.86627517199997,33.9747182200001,0 -6.86626311799995,33.9747106130001,0 -6.86624575799993,33.974698893,0 -6.86622166799998,33.974682629,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Centre Hospitalier Universitaire Vétérinaire</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/clinique_equine.png</SimpleData>
+		<SimpleData name="info">• Installations consacrées à la clinique équine et aux animaux de compagnie.</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86831799899994,33.974388462,0 -6.86863575699994,33.9740690890001,0 -6.86888605799993,33.9742419450001,0 -6.86856829899995,33.974561319,0 -6.86856877399993,33.9745552140001,0 -6.86831799899994,33.974388462,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Industries Agro-Alimentaires</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dpt_iaa.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;industries agro-alimentaires&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86634234899998,33.9745651490001,0 -6.86615498799995,33.9747475400001,0 -6.86592175799996,33.974591988,0 -6.86610173899993,33.9744046760001,0 -6.86634234899998,33.9745651490001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Salle TP IAA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="height">16</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/salles_travaux_pratiques_iaa.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;industries agro-alimentaires&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86641567799995,33.9739879380001,0 -6.86646933099996,33.974024537,0 -6.86638717899996,33.97410813,0 -6.86630233299996,33.9740502510001,0 -6.86630919,33.9740432740001,0 -6.86625977699993,33.9740095670001,0 -6.86624537699993,33.97402422,0 -6.86622025199995,33.97400708,0 -6.86620585099996,33.974021733,0 -6.86612115123132,33.973961078494,0 -6.86640176032219,33.9736824268975,0 -6.86649768124219,33.9737454045934,0 -6.86653485750404,33.9737181531675,0 -6.86667768328497,33.9738217474043,0 -6.86650725199996,33.973986273,0 -6.86644795599994,33.973950647,0 -6.86641567799995,33.9739879380001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Microbologie des Maladies Contagieuses</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/micro_des_maladies_conta.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86642239870805,33.9732372143183,0 -6.86668366593232,33.9734078872579,0 -6.86663334395655,33.9734593298795,0 -6.86668606175961,33.9734968255666,0 -6.86672495399995,33.9734541300001,0 -6.86689783299994,33.9735677040001,0 -6.86681115299996,33.973659415,0 -6.86664023103572,33.9735464731499,0 -6.86667014190679,33.9735138980779,0 -6.86661776996568,33.9734754435905,0 -6.86657636094992,33.9735176301954,0 -6.86631713957522,33.9733495548528,0 -6.86642239870805,33.9732372143183,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Clinique des Maladies Infectieuses</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86680065699994,33.9732776020001,0 -6.86693567,33.9731216210001,0 -6.86709167899994,33.973215354,0 -6.86718031599997,33.9731129510001,0 -6.86723316799993,33.973144705,0 -6.86717284199995,33.973209228,0 -6.86715715799994,33.973199461,0 -6.86713036299994,33.9732304190001,0 -6.86715132699993,33.973243015,0 -6.86700323899993,33.973399316,0 -6.86680065699994,33.9732776020001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bureaux professorales</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/bureaux.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">aeb58e</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">desk</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86806333299995,33.9739258340001,0 -6.86788546599996,33.9738097060001,0 -6.86797863199996,33.973711037,0 -6.86815627699997,33.9738270190001,0 -6.86806333299995,33.9739258340001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Clinique PMC Ruminants</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/clinique_pmc_ruminant.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86783817799994,33.9738007510001,0 -6.86758980099995,33.9736351080001,0 -6.86764928799994,33.9735731920001,0 -6.86773202399996,33.973628369,0 -6.86779695,33.973560578,0 -6.86796271899993,33.973671129,0 -6.86783817799994,33.9738007510001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Etable PMC Ruminants</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86794685,33.973557962,0 -6.86775486499994,33.9734303320001,0 -6.86784821,33.9733336520001,0 -6.86804045399998,33.973460227,0 -6.86794685,33.973557962,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Amphithéâtre &quot;Véto&quot;</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/amphi_veto.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#2a2f10</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">amphi</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86843098,33.9741628260001,0 -6.86835346099997,33.9741823470001,0 -6.86831158199993,33.9742250080001,0 -6.86824466628021,33.9741794817037,0 -6.86828423701001,33.9741393071918,0 -6.86829293666657,33.9740677883972,0 -6.86832914071282,33.9740299584536,0 -6.86833334277419,33.9740330660808,0 -6.86838815610006,33.9739818175188,0 -6.86851614299997,33.9740711040001,0 -6.86843195199998,33.9741634540001,0 -6.86843098,33.9741628260001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Clinique Monogastrique</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/clinique_monogastique.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86845687499994,33.9738932540001,0 -6.86869136399997,33.973661416,0 -6.86886089799998,33.9737804380001,0 -6.86880582699996,33.9738373550001,0 -6.86885678099998,33.9738715760001,0 -6.86887203199996,33.9738573610001,0 -6.86912840099995,33.974025016,0 -6.86898813799996,33.9741738910001,0 -6.86872820899993,33.9740055870001,0 -6.86876798799995,33.9739644160001,0 -6.86871788399998,33.9739289510001,0 -6.86863423399996,33.974014138,0 -6.86845687499994,33.9738932540001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Clinique Parasitologie</name>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<name>Clinique Reproduction</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/clinique_reproduction.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86944915799995,33.9741421680001,0 -6.86929734499995,33.9740382310001,0 -6.86939863099997,33.9739362010001,0 -6.86938767899994,33.9739286540001,0 -6.86941177199998,33.973904471,0 -6.86942533899997,33.9739138190001,0 -6.86947800299993,33.973859905,0 -6.86950525299994,33.973878583,0 -6.86952639199995,33.973857175,0 -6.86949219699994,33.9738337380001,0 -6.86959000523068,33.9737344808204,0 -6.86969397399997,33.9738137860001,0 -6.86960086599993,33.9739082200001,0 -6.86954885499995,33.9738725720001,0 -6.86952727499994,33.9738944270001,0 -6.86957074199995,33.973924219,0 -6.86946415199998,33.974032165,0 -6.86951999,33.974070436,0 -6.86944915799995,33.9741421680001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Aviculture</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">35</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/aviculture.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86947311599994,33.97443421,0 -6.86955470499993,33.9743489250001,0 -6.8696451399999,33.974409103,0 -6.86956355099994,33.974494387,0 -6.86947311599994,33.97443421,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Aviculture</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/aviculture.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86971248,33.9743390470001,0 -6.86962161099996,33.974278785,0 -6.86970394699995,33.9741928600001,0 -6.86979481499998,33.974253123,0 -6.86971248,33.9743390470001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Aviculture</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">37</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/aviculture.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86983594799995,33.9745346610001,0 -6.8697543599999,33.9746199470001,0 -6.86964783799993,33.9745494960001,0 -6.86972942799997,33.974464212,0 -6.86983594799995,33.9745346610001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Aviculture</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/aviculture.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;médecine vétérinaire&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86990251499998,33.9744648820001,0 -6.86979599299997,33.9743944320001,0 -6.86987758299995,33.974309147,0 -6.86998410299998,33.974379598,0 -6.86990251499998,33.9744648820001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>ONSSA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/onssa.png</SimpleData>
+		<SimpleData name="info">• &lt;b&gt;&lt;i&gt;Office National de Sécurité Sanitaire des produits Alimentaires&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86958587499993,33.974939325,0 -6.86946357499994,33.9748608680001,0 -6.86944680199997,33.974879016,0 -6.86928740299993,33.9747766730001,0 -6.86934038699997,33.9747217570001,0 -6.86945833199997,33.974800741,0 -6.86952743399996,33.974729117,0 -6.86943935499994,33.974670132,0 -6.86939730899996,33.974713712,0 -6.86932264899997,33.974664322,0 -6.86941443099994,33.9745680180001,0 -6.86964330699993,33.9747148450001,0 -6.86963452399993,33.9747243480001,0 -6.86966196899994,33.974741954,0 -6.86967075299998,33.97473245,0 -6.86973750099997,33.9747752700001,0 -6.86968156499995,33.97483579,0 -6.86967899199993,33.97483414,0 -6.86965984099993,33.974854861,0 -6.86964287599994,33.974843978,0 -6.86961811199996,33.9748707730001,0 -6.86963507599995,33.974881656,0 -6.86962021699998,33.974897733,0 -6.8696227899999,33.974899383,0 -6.86958587499993,33.974939325,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Garages</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86987566799996,33.974744376,0 -6.86981488199996,33.9747041740001,0 -6.86984483099997,33.974672743,0 -6.86978404599995,33.9746325410001,0 -6.86990639599998,33.974504134,0 -6.87002796899998,33.9745845370001,0 -6.86987566799996,33.974744376,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Club EL HARKA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/harka.png</SimpleData>
+		<SimpleData name="info">• &lt;b&gt;&lt;i&gt;Café &amp; Restaurant&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86899234899994,33.976090664,46.3987 -6.86910206099998,33.975977722,46.0382 -6.86916292299998,33.976018997,46.0382 -6.86883523799997,33.9763653320001,0 -6.86876957599998,33.976321768,0 -6.86873690099998,33.97636049,0 -6.86870665799995,33.9763928510001,0 -6.86866857599995,33.9763676690001,0 -6.86869575699995,33.9763368220001,0 -6.86862573599996,33.976288492,0 -6.86869858099993,33.976215279,0 -6.86866427699994,33.976191031,0 -6.86877531299996,33.9760748730001,0 -6.86881041199996,33.976098769,0 -6.86888791799993,33.9760213060001,51.2066 -6.86899234899994,33.976090664,46.3987</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Club Équestre El Harka</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/horse.png</SimpleData>
+		<SimpleData name="info">• &lt;b&gt;&lt;i&gt;Club équestre El Harka&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86883525799993,33.976365366,0 -6.86788921299996,33.9773553110001,47.5406 -6.86775433699995,33.97726053,46.9396 -6.86786909899996,33.9771336420001,47.1199 -6.86790217899994,33.9771563890001,47.1199 -6.86792911099997,33.977129108,47.2401 -6.86789393299995,33.9771038700001,46.9997 -6.86815320599993,33.9768362020001,47.0598 -6.86816162699995,33.976821515,47.0598 -6.86837500799993,33.976605658,0 -6.86844886099993,33.976655168,34.9059 -6.86786319399994,33.977270596,0 -6.86788717,33.9772883910001,47.3603 -6.86847442799996,33.976672288,46.9997 -6.86873641499994,33.976391876,46.8194 -6.86875683399995,33.9763837250001,46.8194 -6.86876222199993,33.9763769800001,46.8194 -6.86873694399998,33.976360641,46.8194 -6.86876961599995,33.9763218360001,0 -6.86883525799993,33.976365366,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Capacity Building Center</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">43</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/capacity.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86602274499995,33.9769888970001,55.4717 -6.86601790899994,33.976981145,55.4717 -6.86591594299995,33.9770151930001,55.1064 -6.86580980799994,33.9768012490001,55.2525 -6.86591134,33.976765819,55.4717 -6.86590706899995,33.9767570820001,-41.3509 -6.86597678599998,33.976734519,55.5447 -6.86598665799994,33.9767552380001,-40.177 -6.86605719599993,33.976731262,55.2525 -6.86615338399997,33.9769200170001,55.1795 -6.86608256799997,33.976943174,-26.3663 -6.86609321899994,33.9769656080001,55.4717 -6.86602274499995,33.9769888970001,55.4717</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Ex-département de foresterie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">44</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/ex-forrestier.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86625690099993,33.9772320370001,-4.70119999999588 -6.86621335099994,33.977191067,-8.0801 -6.86623336099996,33.97717578,-8.75130000000354 -6.86617804499997,33.977122826,-13.1027 -6.86625016599993,33.9770705650001,-15.3369 -6.86624356399994,33.977064259,-15.8553 -6.86628296599997,33.9770350220001,58.0284 -6.86629357499993,33.977044569,-16.3257 -6.86631268,33.977032708,-16.7883 -6.86632095899995,33.977042141,58.0284 -6.86637460299994,33.9770018620001,58.1014 -6.86642072099994,33.977048929,-13.9741 -6.86640492399994,33.9770607150001,51.2348 -6.86644045499997,33.977098803,-10.4021 -6.86642801499994,33.9771083800001,51.2348 -6.86649365599993,33.9771731120001,54.6681 -6.86649783099995,33.9771699880001,51.1617 -6.86653624299993,33.977210622,-1.55530000000726 -6.8664952399999,33.9772394610001,51.0887 -6.86648536099995,33.9772301850001,-1.10730000000331 -6.86646975599996,33.977242247,51.0887 -6.86647493299995,33.9772476150001,51.1617 -6.86645378199995,33.9772633900001,0.543799999999464 -6.86642381599995,33.9772360850001,53.9376 -6.8663850199999,33.9771981230001,-4.82889999999315 -6.86633603699994,33.977232504,54.0107 -6.86631733799993,33.9772151670001,-4.8183 -6.86628739299994,33.9772364510001,-3.91770000000542 -6.86627190399997,33.9772219550001,-5.11449999999604 -6.86625690099993,33.9772320370001,-4.70119999999588</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Résidence APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">45</SimpleData>
+		<SimpleData name="height">13</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/apesa.png</SimpleData>
+		<SimpleData name="info">• Pavillons &lt;b&gt;&lt;i&gt;A ⁄ B&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#193600</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">residence</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86820697599995,33.972369545,0 -6.86783138899995,33.9721447150001,0 -6.86805612599994,33.9718865290001,0 -6.8682123799999,33.9719800760001,0 -6.86805836199994,33.972157107,0 -6.86827769499996,33.972288297,0 -6.86820697599995,33.972369545,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Résidence APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">46</SimpleData>
+		<SimpleData name="height">13</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/apesa.png</SimpleData>
+		<SimpleData name="info">• Pavillons &lt;b&gt;&lt;i&gt;C ⁄ D&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#193600</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">residence</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86785871199993,33.9727222340001,0 -6.86748312499998,33.972497404,0 -6.86770786199997,33.972239218,0 -6.86786411699995,33.972332765,0 -6.86771009799998,33.9725097960001,0 -6.86792943099994,33.972640986,0 -6.86785871199993,33.9727222340001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Grand-Amphithéâtre &quot;AGRO&quot; </name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="height">10</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/amphi_agro.png</SimpleData>
+		<SimpleData name="color">#2a2f10</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">amphi</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.8667830599999,33.9749173270001,0 -6.86677797199997,33.9749112980001,0 -6.86677348099994,33.974904758,0 -6.86676960499994,33.9748977350001,0 -6.86676636299995,33.9748902590001,0 -6.86676376699995,33.9748823620001,0 -6.86676182899993,33.974874078,0 -6.86676055899994,33.9748654420001,0 -6.86675995799993,33.9748564920001,0 -6.86676003199995,33.9748472650001,0 -6.86676078099993,33.974837801,0 -6.86676220099997,33.9748281400001,0 -6.86676428299995,33.9748183250001,0 -6.86676702299997,33.9748083970001,0 -6.86677040699993,33.9747983980001,0 -6.86677441799998,33.974788371,0 -6.86677904299995,33.9747783600001,0 -6.86678426199995,33.9747684060001,0 -6.86679004799993,33.9747585550001,0 -6.86679638099997,33.9747488450001,0 -6.86680323199994,33.9747393210001,0 -6.86681057299995,33.97473002,0 -6.86681837,33.9747209870001,0 -6.86682659099995,33.974712256,0 -6.86683520199995,33.9747038670001,0 -6.86684416399993,33.974695855,0 -6.8668534399999,33.9746882540001,0 -6.86686299099995,33.9746810980001,0 -6.86687277299995,33.974674415,0 -6.86688274799997,33.9746682370001,0 -6.86689287,33.9746625880001,0 -6.86690309799997,33.9746574930001,0 -6.86691338599996,33.974652973,0 -6.86692369199994,33.974649049,0 -6.86693397099998,33.9746457360001,0 -6.86694417899997,33.9746430500001,0 -6.86695427399997,33.9746410010001,0 -6.86696420799996,33.9746395980001,0 -6.86697394299995,33.974638849,0 -6.86698343599994,33.9746387540001,0 -6.86699264699996,33.974639316,0 -6.86700153599998,33.9746405290001,0 -6.86701006299995,33.9746423940001,0 -6.86701819399997,33.9746448970001,0 -6.86702589299995,33.9746480310001,0 -6.86703312799995,33.9746517790001,0 -6.86703986699996,33.97465613,0 -6.86704608199994,33.9746610620001,0 -6.86705174699995,33.9746665530001,0 -6.86705683499997,33.974672582,0 -6.86706132599994,33.9746791220001,0 -6.86706520099995,33.9746861450001,0 -6.86706844399993,33.97469362,0 -6.8670710399999,33.9747015180001,0 -6.86707297799995,33.9747098010001,0 -6.86707424799994,33.974718437,0 -6.86707484799996,33.9747273880001,0 -6.86707477499994,33.974736615,0 -6.86707402499997,33.9747460790001,0 -6.86707260599997,33.97475574,0 -6.86707052399993,33.974765554,0 -6.86706778399997,33.974775483,0 -6.8670644,33.974785481,0 -6.86706038899996,33.974795509,0 -6.86705576299994,33.9748055200001,0 -6.86705054499993,33.974815473,0 -6.86704475899995,33.974825325,0 -6.86703842499998,33.974835033,0 -6.86703157399995,33.9748445590001,0 -6.86702423499997,33.9748538590001,0 -6.86701643599997,33.9748628930001,0 -6.86700821499994,33.9748716230001,0 -6.86699960399994,33.9748800130001,0 -6.86699064199996,33.974888025,0 -6.86698136599995,33.9748956240001,0 -6.86697181599993,33.9749027820001,0 -6.86696203399993,33.9749094640001,0 -6.86695205899997,33.974915642,0 -6.86694193699998,33.974921291,0 -6.86693170899997,33.974926387,0 -6.8669214199999,33.974930907,0 -6.86691111499994,33.974934831,0 -6.86690083499997,33.974938143,0 -6.86689062699998,33.97494083,0 -6.86688053299997,33.974942878,0 -6.86687059899998,33.974944281,0 -6.86686086299994,33.9749450310001,0 -6.86685137099994,33.9749451260001,0 -6.86684216,33.9749445630001,0 -6.86683327099996,33.9749433490001,0 -6.86682474399993,33.974941485,0 -6.86681661199998,33.974938981,0 -6.86680891299994,33.9749358490001,0 -6.86680167799994,33.9749320990001,0 -6.86679493899993,33.9749277500001,0 -6.86678872399995,33.974922818,0 -6.8667830599999,33.9749173270001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Amphithéâtre APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="height">10</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/amphi_apesa.png</SimpleData>
+		<SimpleData name="color">#2a2f10</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">amphi</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86867866499995,33.972590967,0 -6.86871489,33.972568864,0 -6.86873822099994,33.972549831,0 -6.8687627799999,33.9725271140001,0 -6.86877812899996,33.972507466,0 -6.86879409299996,33.9724841350001,0 -6.86880637299993,33.972460804,0 -6.86881005599997,33.972433789,0 -6.8691366899999,33.9725430760001,0 -6.86912195499997,33.972584827,0 -6.86909862399995,33.972631489,0 -6.86907283799996,33.9726707830001,0 -6.86904091099996,33.972705165,0 -6.86900775499993,33.972739548,0 -6.86896846099995,33.9727714750001,0 -6.86893162399997,33.972797262,0 -6.86888496199998,33.9728169090001,0 -6.86867866499995,33.972590967,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Ingénierie de développement économique et social</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dpt_ress_nat.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;agronomie&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86353654799996,33.979419186,51.9175 -6.86338874499995,33.9795694580001,51.7925 -6.86304824599995,33.979344086,51.7575 -6.86319389099998,33.9791927140001,51.7675 -6.86353654799996,33.979419186,51.9175</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Ingénierie en Ecologie et Management des écosystèmes Naturels</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dpt_ress_nat.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;agronomie&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86377734499996,33.9791650230001,50.78 -6.86363293499994,33.9793147030001,50.805 -6.86329375722774,33.9790922558168,52.1349 -6.86343797522784,33.9789383878169,52.1799 -6.86377734499996,33.9791650230001,50.78</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Ingénierie en Génétique et Production de Semences et Plantes </name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">51</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/dpt_ress_nat.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;agronomie&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86367895922803,33.9786838598172,51.6725 -6.86402042699996,33.978908592,50.725 -6.86387662799996,33.979059066,50.75 -6.8635355282279,33.9788361978171,51.6475 -6.86367895922803,33.9786838598172,51.6725</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Résidence IAV (Garçons)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="height">13</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/pavillon.png</SimpleData>
+		<SimpleData name="info">• Pavillons &lt;b&gt;&lt;i&gt;8 ⁄ 2&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#193600</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">residence</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86158898699995,33.9796692960001,0 -6.86171173099996,33.9795382230001,0 -6.86198484899995,33.9797157260001,0 -6.86198500299997,33.9797162520001,0 -6.86186210399995,33.9798468,0 -6.86158898699995,33.9796692960001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Résidence IAV (Garçons)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="height">13</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/pavillon.png</SimpleData>
+		<SimpleData name="info">• Pavillons &lt;b&gt;&lt;i&gt;7 ⁄ 1&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#193600</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">residence</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.8621686399999,33.979840225,0 -6.86216685899996,33.979839987,0 -6.8623932099999,33.9796097600001,0 -6.86254507399997,33.9797133810001,0 -6.86231872199994,33.9799436070001,0 -6.8621686399999,33.979840225,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Résidence IAV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="height">13</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/pavillon.png</SimpleData>
+		<SimpleData name="info">• Pavillons &lt;b&gt;&lt;i&gt;3 ⁄ 6 ⁄ 4 ⁄ 5&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#193600</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">residence</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86106967806051,33.9803663787453,0 -6.86107141424401,33.980364606547,0 -6.86113633399998,33.9804075440001,0 -6.86147304,33.980054318,0 -6.86159687,33.9801362380001,0 -6.86178774899997,33.979935991,0 -6.86187224,33.979991887,0 -6.86155437699995,33.9803253470001,0 -6.86143894099996,33.9802489800001,0 -6.86122203,33.9804765330001,0 -6.86116656399997,33.980439839,0 -6.86100937199996,33.980604742,0 -6.86090526099997,33.980535866,0 -6.86106967806051,33.9803663787453,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Salles TP APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">55</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/tp2.png</SimpleData>
+		<SimpleData name="color">#0076be</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">lab</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86839939620379,33.9732068895007,0 -6.86857495836171,33.9730109601947,0 -6.86870186345183,33.9730889894006,0 -6.86852001422221,33.9732880745992,0 -6.86839939620379,33.9732068895007,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Administration APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">56</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">aeb58e</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">desk</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86843296,33.9721709670001,0 -6.86853809699994,33.972235213,0 -6.86852741899998,33.972258395,0 -6.86848464699995,33.972281953,0 -6.86845085199997,33.9723127830001,0 -6.86842648499993,33.972344655,0 -6.86841157699996,33.9723713440001,0 -6.86840143799998,33.9723977470001,0 -6.86839765699995,33.972419695,0 -6.86828877699998,33.9723303600001,0 -6.86843296,33.9721709670001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Restaurant APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">57</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/restau-apesa.png</SimpleData>
+		<SimpleData name="color">#56bf00</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">food</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86783359299994,33.972940211,0 -6.86802677299994,33.972722753,0 -6.86828610599997,33.972882666,0 -6.86809292599997,33.9731001270001,0 -6.86808653099996,33.9730987820001,0 -6.86783359299994,33.972940211,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Direction de formation en Agronomie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">58</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/Departement_ct_admi.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;agronomie&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86359742199994,33.979499059,51.7425 -6.86374230699994,33.979347654,51.7075 -6.86394378299997,33.9794812050001,51.8325 -6.86379980499993,33.9796350130001,51.8075 -6.86359742199994,33.979499059,51.7425</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Département de Production Animale</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">59</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/Departement_ct_admi.png</SimpleData>
+		<SimpleData name="info">• Filière de formation en &lt;b&gt;&lt;i&gt;agronomie&lt;/i&gt;&lt;/b&gt;</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86384163199995,33.9792448470001,51.7925 -6.86398479499996,33.979095235,51.7225 -6.86418585899997,33.9792265510001,51.8225 -6.86404079299996,33.9793797130001,51.9275 -6.86384163199995,33.9792448470001,51.7925</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Buvette APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">60</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#56bf00</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">food</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86813866599994,33.9724648540001,0 -6.86799600699993,33.9726242680001,0 -6.86781406099993,33.97251242,0 -6.86795576,33.972352417,0 -6.86813866599994,33.9724648540001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Grand-Amphithéâtre &quot;AGRO&quot; </name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">61</SimpleData>
+		<SimpleData name="height">4</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/amphi_agro.png</SimpleData>
+		<SimpleData name="color">#2a2f10</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">amphi</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86677905299996,33.9747783770001,0 -6.86677442899997,33.974788388,0 -6.86677242299993,33.9747934010001,0 -6.86677041699994,33.9747984150001,0 -6.86676872499993,33.9748034140001,0 -6.86676703399996,33.9748084130001,0 -6.86676566399996,33.9748133780001,0 -6.86676429299996,33.974818342,0 -6.86676325299993,33.9748232490001,0 -6.86676221099998,33.974828157,0 -6.86676150099993,33.9748329870001,0 -6.86676079099993,33.974837817,0 -6.86676041699997,33.9748425490001,0 -6.86676004299994,33.9748472810001,0 -6.86676000499995,33.974851895,0 -6.86675996799994,33.9748565080001,0 -6.86676026799995,33.974860984,0 -6.86676056899995,33.9748654590001,0 -6.86676120399994,33.974869777,0 -6.86676184,33.9748740950001,0 -6.86676280899997,33.974878237,0 -6.86676377699996,33.9748823790001,0 -6.86676637299996,33.9748902760001,0 -6.86676961499995,33.9748977520001,0 -6.86677349099995,33.974904775,0 -6.86677798199997,33.974911315,0 -6.8667830699999,33.9749173430001,0 -6.86678873399995,33.974922835,0 -6.86679494899994,33.9749277670001,0 -6.86680168799995,33.974932116,0 -6.86680892299995,33.9749358660001,0 -6.86681662299998,33.974938998,0 -6.86682475399994,33.974941502,0 -6.86683328099997,33.974943366,0 -6.8668421699999,33.9749445800001,0 -6.86685138,33.9749451430001,0 -6.86686087299995,33.9749450480001,0 -6.86687060899993,33.974944298,0 -6.86688054399997,33.974942895,0 -6.86689063699993,33.974940847,0 -6.86690084599997,33.9749381600001,0 -6.86691112499994,33.974934848,0 -6.8669214299999,33.974930923,0 -6.86693171899998,33.974926404,0 -6.86694194699993,33.974921308,0 -6.86695207,33.974915659,0 -6.86696204399993,33.9749094810001,0 -6.86697182599994,33.9749027990001,0 -6.86698137599996,33.974895641,0 -6.86705707799996,33.9749892730001,0 -6.86699084899993,33.9750478500001,0 -6.86688568299996,33.97496532,0 -6.86684591299996,33.9750004950001,0 -6.86673889099995,33.974916509,0 -6.86669228799997,33.974879936,0 -6.86670584399997,33.9748679460001,0 -6.86668462199998,33.974851291,0 -6.86677259299995,33.974773484,0 -6.86677894699994,33.974778471,0 -6.86677905299996,33.9747783770001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Département des Stages</name>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">62</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/Departement_ct_admi.png</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<name>Terrain du Basketball 01</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">63</SimpleData>
+		<SimpleData name="height">0</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/basket1.png</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86629989532699,33.9726399969477,0 -6.86622679671787,33.9725912572766,0 -6.86617463118498,33.9725563849549,0 -6.86641730942336,33.9723001256565,0 -6.86648163970662,33.9723444448889,0 -6.86654576560136,33.9723870886088,0 -6.86629989532699,33.9726399969477,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Terrain du Basketball 02</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">64</SimpleData>
+		<SimpleData name="height">0</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/basket2.png</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86630537601793,33.9726449496711,0 -6.8665539594841,33.9723909651048,0 -6.86667077279728,33.9724690959237,0 -6.86654720393066,33.9725953500559,0 -6.86642412539129,33.9727256252092,0 -6.86630537601793,33.9726449496711,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Terrain du Volleyball 01</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">65</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/volly.png</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86692703934958,33.9717902445716,0 -6.86700495890004,33.9718410300079,0 -6.86694646786856,33.9719011698784,0 -6.86688111860444,33.9719717088814,0 -6.86680241169599,33.9719194665434,0 -6.86692703934958,33.9717902445716,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Terrain du Volleyball 02</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">66</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/volly.png</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86691014195505,33.9719906458728,0 -6.86703371818875,33.9718597149217,0 -6.86711351889557,33.971914842845,0 -6.86698840513602,33.9720433673488,0 -6.86691014195505,33.9719906458728,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Terrain du Football</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">67</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/foot.png</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86639976746492,33.9727943076752,0 -6.86669558701862,33.972483879683,0 -6.86688282229913,33.9726046284837,0 -6.86658495888262,33.9729134871831,0 -6.86639976746492,33.9727943076752,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Terrain du Handball</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">68</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/hand.png</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86644693370098,33.9722689456432,0 -6.86674619707541,33.9719530134931,0 -6.86695925450164,33.9720908650551,0 -6.86665632528927,33.9724077285312,0 -6.86655721017387,33.9723439262452,0 -6.86644693370098,33.9722689456432,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Terrain du Basketball 03</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">69</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/basket3.png</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86669514884183,33.9724353335247,0 -6.86676780661075,33.97235808153,0 -6.86683392648656,33.9722905243879,0 -6.86711335602179,33.9724791314156,0 -6.86697699176472,33.9726237364343,0 -6.86669514884183,33.9724353335247,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Terrain du Basketball 04</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">70</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/basket4.png</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86685968125673,33.9722650291644,0 -6.86699743756498,33.9721220374469,0 -6.86727545453901,33.9723089856427,0 -6.86713767832741,33.9724522176118,0 -6.86685968125673,33.9722650291644,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Salles TD APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">71</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/salletd.png</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86862496617536,33.9727336312744,0 -6.86874705737444,33.9728060936065,0 -6.8685759653299,33.9729957416369,0 -6.86845066691527,33.9729178361433,0 -6.86862496617536,33.9727336312744,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Salles TD APESA</name>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<name>Département Machinisme</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">73</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/machinisme.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86539793899993,33.9794145550001,48.561 -6.86539965299994,33.979413009,48.561 -6.86538244199994,33.97940042,48.561 -6.86542258199995,33.9793623360001,48.561 -6.86535605299997,33.979313667,48.561 -6.8653154099999,33.979352224,48.561 -6.86530579299995,33.979345188,48.561 -6.86509190599998,33.9795485230001,48.561 -6.86498199699997,33.9794646660001,48.561 -6.86515423699996,33.9793066080001,149.4911 -6.86502533399994,33.979212112,149.5244 -6.86536154399994,33.978888549,88.7263 -6.86570485899995,33.9791481840001,48.561 -6.86542741499994,33.9794358460001,48.561 -6.86539793899993,33.9794145550001,48.561</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Grand terrain de Football</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/grand_terrain.png</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86572016680368,33.9727344665524,0 -6.86630164383864,33.9731172173459,0 -6.86625119414282,33.9732166256191,0 -6.86564289492101,33.97385961,0 -6.86555304339585,33.9739092012656,0 -6.86544724024055,33.9739479553425,0 -6.86532286871463,33.9739544260502,0 -6.86521775005746,33.9739321813764,0 -6.8651253120476,33.9738939660989,0 -6.86505861558067,33.9738535706957,0 -6.86499909250724,33.9737787118785,0 -6.86496321149262,33.9736977880926,0 -6.86495867143614,33.9736289373398,0 -6.86497089486513,33.9735542656214,0 -6.8649951939915,33.9734936370649,0 -6.86503238369181,33.9734420735491,0 -6.86572016680368,33.9727344665524,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Salles TD APESA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">75</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image"></SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86844081446137,33.972927294495,0 -6.86856666192434,33.9730062651588,0 -6.86839293659009,33.9732021939893,0 -6.86826592070706,33.973122041625,0 -6.86844081446137,33.972927294495,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Salles TD APESA</name>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<name>Tickets Restaurant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/responsable_economat.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86260000799996,33.9804123540001,0 -6.86264506699996,33.98036425,0 -6.86264713399993,33.980362062,0 -6.86267995499998,33.980383562,0 -6.86263261799996,33.9804337150001,0 -6.86260000799996,33.9804123540001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Restaurant IAV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/resta.png</SimpleData>
+		<SimpleData name="color">#56bf00</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">food</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86231202116392,33.9802599370363,0 -6.86224599636171,33.9803301148258,0 -6.86207838399997,33.9802084940001,0 -6.8620060499999,33.9802806750001,0 -6.86197099599997,33.9802562950001,0 -6.86198826799995,33.9802390580001,0 -6.86193134,33.9801994650001,0 -6.86188481299996,33.9802458940001,0 -6.86175993799998,33.980159046,0 -6.86194565099993,33.979973725,0 -6.86188590499995,33.9799321730001,0 -6.86201485499993,33.9798034950001,0 -6.86216810499997,33.9799090610001,0 -6.86208785799994,33.97998991,0 -6.86215995799995,33.9800395770001,0 -6.86214307799997,33.9800565830001,0 -6.8623693809467,33.9801989691778,0 -6.86231202116392,33.9802599370363,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Terrain de Basket</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">79</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/terrain_basket.png</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86451866499993,33.9797789290001,44.877 -6.86466734399994,33.9798757040001,40.4421 -6.86447099599997,33.9800853990001,44.877 -6.86432253899994,33.9799887880001,44.3066 -6.86451866499993,33.9797789290001,44.877</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Logement Sécurité</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">80</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86398945070156,33.9813698422042,0 -6.86395210008284,33.9814092888978,0 -6.86389868396679,33.9813763685551,0 -6.86393810838071,33.9813358585516,0 -6.86398945070156,33.9813698422042,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Buvette IAV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">81</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">https://cdn.jsdelivr.net/gh/salahelfarissi/iav-campus-geoportal@main/assets/img/popup/buvette_iav.jpg</SimpleData>
+		<SimpleData name="color">#56bf00</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">food</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.8625803,33.980446531,0 -6.86256616799994,33.9804612500001,0 -6.86256380199995,33.980459673,0 -6.86255433599996,33.980469532,0 -6.86255670299994,33.9804711090001,0 -6.86255298299994,33.9804749830001,0 -6.86259499799996,33.9805029780001,0 -6.86255713399993,33.980542416,0 -6.86256866199994,33.980550097,0 -6.86250132599997,33.980620231,0 -6.86239684499998,33.980550615,0 -6.86240564299993,33.9805410020001,0 -6.86234829899996,33.980502793,0 -6.86237007099993,33.980480116,0 -6.86241115499996,33.9805074920001,0 -6.86247653899994,33.9804393910001,0 -6.86246893099997,33.9804343220001,0 -6.86247642799998,33.9804265130001,0 -6.86247718799996,33.98042702,0 -6.86251082799993,33.9803919830001,0 -6.86252714399996,33.980402854,0 -6.86252410099996,33.9804060230001,0 -6.86253982399995,33.9804165,0 -6.86254286699995,33.9804133310001,0 -6.86255935199995,33.9804243150001,0 -6.86255803299997,33.9804256890001,0 -6.86255980699997,33.9804268720001,0 -6.86255629199997,33.980430534,0 -6.8625803,33.980446531,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Logement de fonction</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">82</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/logement-de-fct.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86560162799998,33.978730302,0 -6.86555072299996,33.9786975210001,0 -6.86550300599993,33.978746572,0 -6.86550754799992,33.97874957,0 -6.86550573299996,33.978751479,0 -6.86550426299993,33.9787505080001,0 -6.86547700899996,33.9787798250001,0 -6.86550244299997,33.9787959230001,0 -6.86546722,33.978804047,0 -6.86541785399993,33.9787714620001,0 -6.86541496399997,33.9787962720001,0 -6.86539116199998,33.9787806900001,0 -6.86531828499994,33.9788590850001,0 -6.86531486099994,33.9788568750001,0 -6.86529283799996,33.9788805650001,0 -6.86528089499996,33.978857792,0 -6.86526483599994,33.9788750660001,0 -6.86518991799994,33.9788256150001,0 -6.86520383799996,33.9788106440001,0 -6.86517702799995,33.9787929460001,0 -6.86521460899996,33.9787525200001,0 -6.86524025599994,33.978769449,0 -6.86530922399993,33.978695832,0 -6.86536446099996,33.9787321920001,0 -6.86540914499994,33.9786846170001,0 -6.86545623199993,33.9786344840001,0 -6.86546726499995,33.978642053,0 -6.86548967399995,33.978613465,0 -6.86553456699994,33.9786427990001,0 -6.86560142899998,33.9785737350001,0 -6.86563051499996,33.978543953,0 -6.86569447599993,33.9785895910001,0 -6.86570728699996,33.978575048,0 -6.86572171699993,33.978608926,0 -6.86569296799996,33.9786336180001,0 -6.86560162799998,33.978730302,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Résidence IAV (Filles)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">83</SimpleData>
+		<SimpleData name="height">13</SimpleData>
+		<SimpleData name="color">#193600</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">residence</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86196490899994,33.98058343,0 -6.86188975399995,33.9806669220001,0 -6.86185738599994,33.98064449,0 -6.86181552399995,33.980688603,0 -6.86160080499997,33.9805476980001,0 -6.86156522199997,33.9805834220001,0 -6.86150455399996,33.980646565,0 -6.86145167099994,33.980612894,0 -6.86151414199998,33.980548351,0 -6.86157578399997,33.9804840630001,0 -6.86156175899993,33.980474804,0 -6.86162437099995,33.9804093590001,0 -6.86164736199993,33.9804245390001,0 -6.86165110299993,33.9804206060001,0 -6.8615738099999,33.9803695730001,0 -6.86161660499994,33.9803244940001,0 -6.86166455299997,33.980356412,0 -6.86181346,33.980458083,0 -6.86185039199995,33.980483146,0 -6.86189595299993,33.98043461,0 -6.86194554299993,33.9804674320001,0 -6.86206900599996,33.980336965,0 -6.86222610499993,33.9804409700001,0 -6.86222661299996,33.9804404400001,0 -6.86222857099995,33.9804417130001,0 -6.86225793499995,33.9804609030001,0 -6.86218572399997,33.9805378020001,0 -6.86228971799994,33.980606621,0 -6.86221254399993,33.9806896910001,0 -6.86202861399994,33.9805660170001,0 -6.86200041199993,33.9805459790001,0 -6.86196490899994,33.98058343,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Logement de fonction</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">84</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86402375899996,33.981263803,0 -6.86404908699996,33.9812373610001,0 -6.86404422699997,33.9812342550001,0 -6.86404567699998,33.9812326810001,0 -6.86405057299993,33.9812358090001,0 -6.86407515399998,33.9812101470001,0 -6.86407029899993,33.981207044,0 -6.86407174799996,33.981205469,0 -6.86407664,33.981208596,0 -6.86410227799996,33.981181829,0 -6.86409738299994,33.981178701,0 -6.86409883199997,33.981177127,0 -6.86410376399994,33.9811802790001,0 -6.86412828199997,33.9811546820001,0 -6.86420931422478,33.981207328812,0 -6.86421352799994,33.9812101040001,0 -6.86418902499997,33.9812356850001,0 -6.86419392099998,33.9812388140001,0 -6.86419243599994,33.9812403650001,0 -6.86418753799995,33.981237235,0 -6.86416244399993,33.981263434,0 -6.8641673399999,33.9812665640001,0 -6.86416585499995,33.981268115,0 -6.86416095899995,33.9812649850001,0 -6.86413637699997,33.981290648,0 -6.86414127299997,33.9812937770001,0 -6.86413978799993,33.981295329,0 -6.86413489199998,33.9812921990001,0 -6.86410899399993,33.981319236,0 -6.86404602299996,33.981278296,0 -6.86406362299994,33.981259922,0 -6.86404644199996,33.981248941,0 -6.86402895499998,33.9812671980001,0 -6.86402375899996,33.981263803,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Station Irigation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">85</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86477641699997,33.9776844560001,0.719500000006519 -6.86494735299993,33.9777943560001,0 -6.8648981599999,33.9778491020001,13.432 -6.86472719899996,33.977739157,0 -6.86477641699997,33.9776844560001,0.719500000006519</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bassin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">86</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86505938899995,33.977944504,22.2726 -6.86512402199997,33.977872989,18.6615 -6.8653395,33.9780118400001,31.2165 -6.86527435299996,33.978082354,34.754 -6.86505938899995,33.977944504,22.2726</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Logement Paul Pascon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86430632199995,33.978470144,44.2938 -6.86422491399998,33.9784165140001,49.76 -6.86422098199995,33.978420681,39.6818 -6.86421650499994,33.9784178100001,49.76 -6.86429873899993,33.9783312660001,35.1173 -6.86429460799997,33.978328553,49.76 -6.86432375799995,33.978297895,33.3486 -6.86429893199994,33.9782816420001,49.76 -6.86430227399995,33.978278097,49.76 -6.86438629299994,33.978333074,36.6587 -6.86459905199996,33.9781073350001,48.235 -6.86474234699995,33.978204399,48.235 -6.86471467499996,33.978233339,35.4964 -6.86473737799997,33.9782481170001,48.235 -6.86471214399995,33.9782741290001,48.235 -6.86474097499996,33.97829197,48.235 -6.86471531899997,33.978319002,48.235 -6.86466359399998,33.9782846530001,48.235 -6.8645678299999,33.9783847690001,42.9803 -6.86453884599996,33.9783655210001,41.2543 -6.86449044099993,33.978416113,43.7653 -6.86448797099996,33.9784144990001,43.6199 -6.86446550399995,33.978437426,44.7492 -6.86446825699994,33.9784392980001,44.916 -6.86446473799998,33.9784429480001,49.76 -6.86438158199997,33.978386404,40.0586 -6.86437211,33.978396376,40.5546 -6.86437467299993,33.9783981210001,40.7101 -6.86430632199995,33.978470144,44.2938</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Logement Directeur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">88</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86493557899996,33.978130863,32.4079 -6.86492268499995,33.978122318,31.6413 -6.86492577199993,33.978119216,31.4892 -6.86501390399997,33.9781776200001,36.7295 -6.86504560799995,33.9781446,35.0924 -6.86504796599996,33.9781461590001,50.25 -6.8650397399999,33.9781547260001,50.25 -6.86509127599993,33.9781889810001,50.82 -6.8650999,33.9781799510001,38.2797 -6.86511062499994,33.9781873840001,50.82 -6.86513215799994,33.978164394,50.82 -6.86512177199995,33.978157676,37.1832 -6.86512363299994,33.9781556830001,37.0836 -6.86516369299994,33.9781816400001,39.427 -6.86516169,33.9781837580001,50.82 -6.86516376099996,33.9781851,49.77 -6.86504665,33.978307452,49.77 -6.86504263099994,33.9783047970001,45.487 -6.86504195699996,33.978305504,45.5222 -6.86500363499994,33.978280075,50.27 -6.86499739499993,33.978286632,50.27 -6.86500183799996,33.978289472,50.27 -6.86498401899996,33.978308226,44.7576 -6.86509047699997,33.978378838,51.0916 -6.86508727799998,33.9783822860001,50.27 -6.86497638299994,33.978308742,44.6671 -6.86497956599993,33.9783053690001,50.27 -6.86496248899994,33.978294277,50.27 -6.86488631599997,33.9783738130001,50.27 -6.86484231399993,33.9783451970001,50.29 -6.86485998399996,33.9783267890001,43.9509 -6.86483261399997,33.9783086200001,42.3215 -6.86483774399994,33.9783032660001,42.0559 -6.86483021299995,33.9782982570001,41.6069 -6.86482965799996,33.9782988380001,41.6358 -6.86480863899993,33.9782848580001,40.3827 -6.86483680799995,33.978255446,38.9234 -6.86482023199994,33.9782445980001,49.99 -6.86484239399994,33.978221456,49.99 -6.86479116499993,33.978187964,49.99 -6.86479468599993,33.9781843320001,33.6027 -6.86486344299993,33.978230066,37.7019 -6.86491621099998,33.9781749740001,34.9686 -6.86490240299997,33.9781656490001,49.99 -6.86493557899996,33.978130863,32.4079</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Piscine</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">89</SimpleData>
+		<SimpleData name="height">1</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86493318199996,33.9786705660001,43.8028 -6.86478233899993,33.9785708910001,48.7103 -6.86484854799994,33.978500921,55.1064 -6.86499938099996,33.978600579,50.1999 -6.86493318199996,33.9786705660001,43.8028</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-6.86483165099997,33.978579741,48.8905 -6.86493313099993,33.9786464330001,45.6164 -6.86497352399994,33.978603488,49.5378 -6.86487168499997,33.9785373350001,52.7653 -6.86483165099997,33.978579741,48.8905</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Logements Logistique</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">90</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/logement-logistique.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86539960299996,33.979412973,48.561 -6.86518026799996,33.9796216840001,48.561 -6.86517857599995,33.9796204450001,48.561 -6.86496478699996,33.9798235390001,48.561 -6.86489918199993,33.979776653,48.561 -6.86486655699997,33.979807753,48.561 -6.86484232499993,33.979789575,48.561 -6.86487196599995,33.9797609720001,48.561 -6.86487014699998,33.9797596770001,48.561 -6.86487230499995,33.9797575960001,49.24 -6.86486648499994,33.979753343,49.24 -6.86487162499998,33.979748462,49.24 -6.86487785099996,33.97975301,48.561 -6.86491501899997,33.979717701,49.254 -6.86490879699994,33.9797131560001,49.254 -6.86491043899997,33.9797115960001,48.561 -6.86489018499998,33.9796967990001,48.561 -6.86497565199994,33.9796156080001,48.561 -6.86496576699994,33.9796083860001,49.254 -6.86497090599994,33.9796035050001,49.254 -6.86497712699997,33.9796080510001,49.254 -6.86501435699995,33.9795726840001,49.254 -6.86500813499992,33.9795681370001,49.254 -6.86501327399998,33.9795632560001,49.254 -6.86501949699993,33.9795678030001,49.254 -6.86505730699997,33.979531884,49.254 -6.86505108299997,33.979527337,49.254 -6.86505688699998,33.9795218130001,48.561 -6.86509190599998,33.9795485230001,48.561 -6.86530580299996,33.9793452050001,48.561 -6.86531652599996,33.9793529520001,48.561 -6.86535606299998,33.979313684,48.561 -6.86542259199996,33.9793623530001,48.561 -6.86538244199994,33.97940042,48.561 -6.86539960299996,33.979412973,48.561</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Salle des conférences</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">93</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/salles_conference.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86295288799994,33.9795702110001,48.64 -6.86321832399994,33.979747649,48.64 -6.86319686299993,33.979769785,48.64 -6.8631904,33.979765441,48.64 -6.86317822299998,33.9797782100001,48.64 -6.86317338399994,33.979774977,48.64 -6.86314678399998,33.979802867,48.64 -6.86314462899998,33.9798051270001,48.64 -6.86314123899996,33.9798028810001,48.64 -6.86313231599996,33.9798122390001,48.64 -6.86313571899996,33.9798145130001,48.64 -6.86313457399996,33.9798157120001,48.64 -6.86313938799998,33.979818928,48.64 -6.86311091599993,33.979848804,48.64 -6.86310609799995,33.9798455870001,48.64 -6.86310440599993,33.979847346,48.64 -6.86310922399997,33.9798505630001,48.64 -6.86307064299996,33.979891025,48.64 -6.8630658299999,33.979887809,48.64 -6.86304057199993,33.979914276,48.64 -6.86304538799993,33.97991749,48.64 -6.86303010199993,33.979933529,48.64 -6.86293758899996,33.9798717350001,48.64 -6.86293531,33.9798740950001,48.64 -6.86293999099996,33.979877172,48.64 -6.86293857799996,33.979878639,48.64 -6.86293604499997,33.979876946,48.11 -6.86291957499998,33.979893776,48.64 -6.86275673299997,33.979773214,48.64 -6.86295288799994,33.9795702110001,48.64</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Administration IAV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">94</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/admin.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86367216799994,33.9802902870001,30.2049 -6.86365505,33.9802788390001,30.8945 -6.86365293799997,33.9802810350001,30.5371 -6.86334646299997,33.9800781120001,42.6343 -6.86339599299993,33.9800265850001,51.02 -6.86344789199995,33.9800610300001,48.9614 -6.86347510499996,33.980032722,53.5685 -6.86342314799998,33.9799983340001,55.6176 -6.86344575699997,33.9799748140001,59.4454 -6.86345615399995,33.9799817430001,59.0295 -6.86346176899997,33.979975901,59.9802 -6.86345137499995,33.9799689710001,60.3964 -6.86355404599993,33.97986216,77.7791 -6.86386141899993,33.9800652,65.705 -6.86382011899997,33.980107897,58.7456 -6.86383608699998,33.980118427,58.1206 -6.86383332499997,33.9801213580001,57.6459 -6.86382667299995,33.9801169720001,57.9062 -6.86373671922622,33.9802109608144,0 -6.8637161072262,33.9802325248143,0 -6.86366785199994,33.9802828900001,30.9319 -6.86367475199995,33.980287452,30.6604 -6.86367216799994,33.9802902870001,30.2049</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-6.86352268,33.98009878,47.4526 -6.8636411599999,33.9801770760001,42.7946 -6.86373542599995,33.9800780310001,58.8743 -6.86361703599994,33.97999937,63.5808 -6.86352268,33.98009878,47.4526</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Allée</name>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">95</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">7</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<name>Régie de l'IAV</name>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">96</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<name>Centre de Documentation Agricole</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">97</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/cda.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86260571899993,33.980216215,52.41 -6.86260929399998,33.9802122470001,52.41 -6.8626141899999,33.980215457,53.21 -6.86265260499994,33.980174801,53.21 -6.86265563499995,33.9801767640001,52.41 -6.86265927199997,33.980173038,52.4 -6.86261899399994,33.9801460940001,53.21 -6.86261290299996,33.9801524550001,53.21 -6.86262709099998,33.9801618480001,53.2 -6.86259274299994,33.9801980610001,53.2 -6.86257837399995,33.9801885100001,53.2 -6.86256766099996,33.9802001630001,53.22 -6.86252484499994,33.980171721,53.22 -6.86253583499996,33.980160233,53.2 -6.86252811599996,33.9801551030001,53.2 -6.86251685099995,33.980166496,53.21 -6.86249775686533,33.980153885072,0 -6.86247381799996,33.9801380540001,53.21 -6.86248086472218,33.9801305676154,0 -6.86248486799997,33.980126354,53.2 -6.86247719699998,33.9801212560001,53.2 -6.86246615099998,33.980132917,53.21 -6.86242268799998,33.980104661,53.21 -6.86243430099995,33.9800927410001,53.2 -6.86241983199994,33.980083322,53.2 -6.86245408399998,33.980047831,53.19 -6.86246797599995,33.980057329,53.19 -6.86247436,33.980050615,53.18 -6.86246014399995,33.980041355,53.2 -6.86249457,33.980005427,53.2 -6.86250836099993,33.9800148590001,53.2 -6.86251470799994,33.980008184,53.21 -6.86250077499994,33.979998933,53.21 -6.86253538099993,33.979962856,53.21 -6.86254910799994,33.9799720090001,53.23 -6.86255998799993,33.9799608010001,53.23 -6.86260323699997,33.9799891480001,53.23 -6.86259228799997,33.9800007710001,53.23 -6.86259993699997,33.9800058650001,53.22 -6.86262353599994,33.9799804200001,53.22 -6.86259595599995,33.9799621780001,54.09 -6.86267476599994,33.979879483,54.09 -6.86277353299994,33.979945005,54.09 -6.86269494499993,33.9800276500001,54.09 -6.86266696899997,33.980009147,53.58 -6.86264293699998,33.980034516,53.58 -6.86265046099993,33.980039527,53.21 -6.86266160299994,33.980027777,53.21 -6.86270506899996,33.98005621,53.21 -6.86269355299993,33.9800682380001,53.22 -6.86270467199995,33.98007532,46.8 -6.86273159899997,33.9800459850001,46.8 -6.86275455499998,33.980061113,46.2 -6.86272772599995,33.9800903450001,46.2 -6.86273959599993,33.9800981920001,46.2 -6.86272920699997,33.9801095110001,53.21 -6.86279111099998,33.9801504430001,53.21 -6.86268530599995,33.9802620520001,52.08 -6.86268677099997,33.980263032,52.08 -6.86268307199992,33.980266939,52.41 -6.86260571899993,33.980216215,52.41</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Allée</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">98</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">7</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86410967199993,33.9789649310001,50.7024 -6.86409079153414,33.9789847817424,0 -6.86325078299996,33.9798654410001,49.55 -6.86323059599994,33.9798524340001,53.8175 -6.8631441599999,33.979942862,48.64 -6.86309853599994,33.979911741,50.55 -6.86307525099994,33.979936207,50.55 -6.86306085799993,33.9799513300001,50.55 -6.86305851399993,33.979953793,50.55 -6.86305085699996,33.979948651,50.8371 -6.86301431199996,33.979987217,0 -6.86300827199995,33.9799935930001,52.08 -6.86272683499993,33.9802905670001,47.74 -6.86270681899992,33.9802773170001,47.74 -6.8627062099999,33.980277959,52.08 -6.86268556499994,33.980264307,52.08 -6.86268675199995,33.980263042,52.41 -6.8626853,33.980262059,52.08 -6.86279112099993,33.9801504600001,53.21 -6.86298370399993,33.9799474060001,52.08 -6.86300411099995,33.9799609,51.55 -6.86303011199993,33.979933546,48.64 -6.86304539799994,33.979917507,48.64 -6.86304058199994,33.979914293,48.64 -6.8630658299999,33.979887809,48.64 -6.86307064299996,33.979891025,48.64 -6.86310922399997,33.9798505630001,48.64 -6.86310440599993,33.979847346,48.64 -6.86310610799995,33.979845604,48.64 -6.86311091599993,33.979848804,48.64 -6.86313939799993,33.979818945,48.64 -6.86313458399997,33.9798157290001,48.64 -6.86313571899996,33.9798145130001,48.64 -6.86313231599996,33.9798122390001,48.64 -6.86314123899996,33.9798028810001,48.64 -6.86314462899998,33.9798051270001,48.64 -6.86317338399994,33.979774977,48.64 -6.86317823299993,33.9797782270001,48.64 -6.86319041,33.979765458,48.64 -6.86319686299993,33.979769785,48.64 -6.86319862799996,33.979768054,50.8333 -6.86320142699998,33.9797705760001,50.83 -6.86338875499996,33.9795694750001,51.7925 -6.86402043699997,33.978908609,50.725 -6.86410967199993,33.9789649310001,50.7024</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Amphithéâtre Paul Pascon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">99</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/paul.png</SimpleData>
+		<SimpleData name="color">#2a2f10</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">amphi</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86319482399995,33.9799030350001,47.56 -6.86326740699997,33.9799497610001,47.6662 -6.86332469,33.9799866390001,47.75 -6.86332890499995,33.9799820710001,47.75 -6.86334813799994,33.979994844,46.708 -6.86334734499997,33.979995649,46.708 -6.86334915099997,33.9799968470001,53.592 -6.86334774199997,33.979998333,53.592 -6.86334475199993,33.9799963580001,53.592 -6.86334651099997,33.9799995820001,53.592 -6.86334510499995,33.980001069,53.592 -6.86334230399996,33.9799992270001,53.608 -6.86332573399994,33.9800166260001,46.34 -6.86332755072717,33.9800167034355,46.3054285714253 -6.86332935796992,33.9800169043547,46.2708571428541 -6.86333114734543,33.9800172278228,46.2362857142829 -6.86333291055257,33.9800176723384,46.2017142857117 -6.8633346394131,33.9800182358413,46.1671428571405 -6.86333632590731,33.9800189157177,46.1325714285693 -6.86333796221197,33.9800197088134,46.098 -6.86333954073734,33.9800206114505,46.0634285714269 -6.86334105416063,33.9800216194399,46.0288571428557 -6.86334249546212,33.9800227281084,45.9942857142846 -6.8633438579559,33.9800239323122,45.9597142857134 -6.86334513532188,33.9800252264649,45.9251428571422 -6.86334632163471,33.9800266045622,45.890571428571 -6.86334741139171,33.9800280602158,45.856 -6.8633483995377,33.9800295866698,45.8214285714286 -6.86334928148926,33.9800311768449,45.7868571428574 -6.86335005315527,33.9800328233632,45.7522857142862 -6.86335071095618,33.9800345185904,45.717714285715 -6.86335125184087,33.9800362546593,45.6831428571438 -6.86335167330003,33.9800380235192,45.6485714285726 -6.86335197337894,33.9800398169664,45.614 -6.86335215068539,33.9800416266771,45.5794285714302 -6.86335220439719,33.9800434442604,45.544857142859 -6.86335213426514,33.9800452612853,45.5102857142878 -6.86335194061462,33.9800470693208,45.4757142857166 -6.86335162434352,33.9800488599812,45.4411428571454 -6.86335118691932,33.9800506249612,45.4065714285742 -6.86335063037109,33.9800523560734,45.372 -6.86334995727998,33.980054045287,45.3374285714318 -6.86334917076874,33.9800556847676,45.3028571428606 -6.86334827448559,33.9800572669083,45.2682857142894 -6.86334727258782,33.9800587843729,45.2337142857182 -6.86334616972278,33.9800602301175,45.1991428571471 -6.86334497100678,33.98006159744,45.1645714285759 -6.86334368199994,33.98006288,45.13 -6.86328823799994,33.9801073610001,44.81 -6.86327768499996,33.980098108,44.81 -6.86333252399993,33.980054178,46.34 -6.86333321132667,33.9800533537625,46.34 -6.86333384126773,33.9800524848789,46.34 -6.86333441093188,33.9800515753377,46.34 -6.86333491770438,33.9800506293104,46.34 -6.86333535925883,33.9800496511416,46.34 -6.8633357335691,33.9800486453205,46.34 -6.86333603891717,33.9800476164637,46.34 -6.86333627390127,33.9800465692933,46.34 -6.86333643744319,33.9800455086151,46.34 -6.86333652879193,33.9800444392968,46.34 -6.86333654752843,33.9800433662476,46.34 -6.86333649356675,33.9800422943936,46.34 -6.86333636715449,33.9800412286513,46.34 -6.86333616887191,33.9800401739158,46.34 -6.86333589962896,33.9800391350254,46.34 -6.86333556066165,33.9800381167497,46.34 -6.86333515352544,33.9800371237616,46.34 -6.86333468008934,33.9800361606194,46.34 -6.8633341425259,33.9800352317434,46.34 -6.86333354330281,33.9800343413972,46.34 -6.86333288517039,33.9800334936681,46.34 -6.86333217114907,33.9800326924451,46.34 -6.8633314045162,33.9800319414062,46.34 -6.86333058879063,33.9800312439984,46.34 -6.86332972771606,33.9800306034249,46.34 -6.86332882524493,33.9800300226234,46.34 -6.86332788551931,33.9800295042605,46.34 -6.86332691285224,33.9800290507155,46.34 -6.86332591170822,33.9800286640693,46.34 -6.86332488668222,33.9800283460972,46.34 -6.86332384247885,33.9800280982581,46.34 -6.86332278389091,33.9800279216906,46.34 -6.86332171577692,33.9800278172042,46.34 -6.86332064303974,33.9800277852773,46.34 -6.86331957060247,33.9800278260591,46.34 -6.86331850338774,33.9800279393621,46.34 -6.86331744629365,33.9800281246644,46.34 -6.86331640417234,33.9800283811164,46.34 -6.86331538180651,33.9800287075405,46.34 -6.86331438388913,33.9800291024391,46.34 -6.86331341499994,33.9800295640001,46.34 -6.86321562699993,33.980132252,53.608 -6.86319911399994,33.9801217840001,45.71 -6.86320274299993,33.9801179520001,45.71 -6.86320220899995,33.9801176010001,48.64 -6.86322898299994,33.980072486,47.56 -6.86312389399995,33.9800029960001,47.56 -6.86319482399995,33.9799030350001,47.56</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Allée</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">100</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">7</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86344789199995,33.9800610300001,50.537 -6.86334814799994,33.9799948610001,46.708 -6.86332889499994,33.9799820540001,47.75 -6.8633246799999,33.9799866220001,47.75 -6.86319483399996,33.9799030520001,47.56 -6.86312390399996,33.980003013,47.56 -6.86322899299995,33.980072503,47.56 -6.86320219899994,33.980117584,48.64 -6.86320275299994,33.980117969,45.71 -6.86319912399995,33.9801218010001,45.71 -6.86321841899996,33.9801340760001,48.64 -6.86321666599997,33.9801359090001,48.64 -6.86321377599995,33.9801340110001,48.64 -6.86321147599995,33.980136417,48.64 -6.86320928299995,33.9801349750001,48.64 -6.86321129199996,33.980132844,53.608 -6.86316267099994,33.9801006440001,53.608 -6.86316049799996,33.9801029160001,48.64 -6.86315828699998,33.9801014650001,48.64 -6.86316045199993,33.9800991720001,53.608 -6.86311183599997,33.9800669640001,53.608 -6.86310950199993,33.980069406,48.64 -6.86310729299993,33.980067955,48.64 -6.86310963299997,33.980065505,53.608 -6.86306100199994,33.980033286,53.608 -6.86305850599996,33.9800358960001,48.64 -6.86305654799998,33.9800345890001,53.592 -6.86305904299996,33.9800319780001,53.592 -6.86305592,33.980029916,48.64 -6.86305745899995,33.980028277,48.64 -6.86306060399994,33.9800303740001,48.64 -6.86306216699995,33.980029013,52.08 -6.86300828199995,33.9799936100001,52.08 -6.86305086699997,33.9799486680001,50.8371 -6.86305852399994,33.97995381,50.55 -6.86309853599994,33.979911741,50.55 -6.8631441699999,33.9799428790001,48.64 -6.86323059599994,33.9798524340001,53.8175 -6.86325079299996,33.9798654580001,49.55 -6.86324014399997,33.9798766210001,49.55 -6.86347510499996,33.980032722,50.572 -6.86344789199995,33.9800610300001,50.537</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Agro-Equipements</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">101</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/agroequipement.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86543035699998,33.979891407,48.531 -6.86535883499994,33.9799125420001,48.531 -6.86537337099998,33.9799466170001,48.531 -6.86533276699993,33.9799586140001,48.531 -6.86534506699996,33.979987447,48.531 -6.86531423199995,33.979996559,48.531 -6.86531651699994,33.980001911,48.531 -6.86524265399993,33.980023739,48.531 -6.86519916899994,33.9799218090001,48.531 -6.86527069099998,33.9799006750001,48.531 -6.86525617899997,33.9798666030001,48.531 -6.86532750899994,33.979845346,48.531 -6.86531309299994,33.979811236,48.531 -6.86538685599993,33.97978944,48.531 -6.86543035699998,33.979891407,48.531</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Logement de fonction</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">102</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86419344799998,33.981187074,45.472 -6.86416735199998,33.9811694220001,45.472 -6.86418836699994,33.981147799,45.472 -6.86421446399993,33.98116545,45.472 -6.86419344799998,33.981187074,45.472</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Carrefour</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">103</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86394572799998,33.9811336120001,44.51 -6.86394832299993,33.981130885,44.51 -6.86394913398745,33.9811298593921,44.51 -6.86395001361131,33.9811288920056,44.51 -6.86395095770354,33.9811279874266,44.51 -6.86395196179046,33.9811271499402,44.51 -6.86395302111418,33.9811263835145,44.51 -6.86395413065497,33.9811256917819,44.51 -6.8639552851555,33.9811250780203,44.51 -6.86395647914492,33.9811245451383,44.51 -6.86395770696595,33.9811240956606,44.51 -6.86395896279987,33.9811237317172,44.51 -6.86396024069654,33.9811234550325,44.51 -6.86396153460032,33.9811232669162,44.51 -6.86396283838007,33.9811231682615,44.51 -6.86396414585783,33.9811231595358,44.51 -6.86396545083835,33.981123240781,44.51 -6.86396674713751,33.9811234116096,44.51 -6.86396802861304,33.9811236712139,44.51 -6.86396928919294,33.9811240183644,44.51 -6.8639705229034,33.9811244514149,44.51 -6.86397172389866,33.9811249683134,44.51 -6.86397288648823,33.9811255666118,44.51 -6.86397400516262,33.9811262434741,44.51 -6.86397507462107,33.9811269956917,44.51 -6.8639760897961,33.981127819703,44.51 -6.86397704587739,33.9811287116026,44.51 -6.8639779383343,33.9811296671614,44.51 -6.86397876293813,33.9811306818556,44.51 -6.86397951578124,33.9811317508738,44.51 -6.86398019329658,33.9811328691539,44.51 -6.86398079227365,33.9811340313936,44.51 -6.86398130987391,33.9811352320867,44.51 -6.86398174364513,33.9811364655434,44.51 -6.86398209153162,33.9811377259193,44.51 -6.86398235188494,33.9811390072446,44.51 -6.86398252347135,33.9811403034437,44.51 -6.86398260547799,33.9811416083758,44.51 -6.86398259751627,33.9811429158581,44.51 -6.86398249962372,33.9811442196951,44.51 -6.86398231226417,33.9811455137096,44.51 -6.86398203632575,33.9811467917661,44.51 -6.86398167311563,33.9811480478129,44.51 -6.86398122435526,33.9811492758963,44.51 -6.86398069217068,33.9811504701967,44.51 -6.86398007908402,33.9811516250555,44.51 -6.86397938799996,33.9811527350001,44.51 -6.86392852499995,33.9812053690001,44.51 -6.86392747008386,33.9812062561864,44.51 -6.86392635519365,33.9812070667184,44.51 -6.86392518588764,33.9812077965616,44.51 -6.86392396799556,33.9812084420719,44.51 -6.86392270758893,33.9812090000323,44.51 -6.86392141095212,33.9812094676636,44.51 -6.86392008454936,33.9812098426319,44.51 -6.8639187349936,33.9812101230673,44.51 -6.86391736901305,33.9812103075728,44.51 -6.863915993418,33.9812103952299,44.51 -6.8639146150665,33.9812103855984,44.51 -6.8639132408307,33.9812102787291,44.51 -6.8639118775618,33.9812100751533,44.51 -6.86391053205625,33.9812097758877,44.51 -6.8639092110227,33.9812093824221,44.51 -6.8639079210468,33.9812088967174,44.51 -6.86390666856005,33.9812083211982,44.51 -6.8639054598068,33.9812076587332,44.51 -6.86390430081337,33.9812069126237,44.51 -6.86390319735801,33.9812060865897,44.51 -6.86390215494202,33.9812051847512,44.51 -6.86390117876272,33.9812042116009,44.51 -6.86390027368657,33.9812031719939,44.51 -6.86389944422603,33.9812020711124,44.51 -6.86389869451659,33.9812009144443,44.51 -6.86389802829581,33.9811997077577,44.51 -6.86389744888538,33.981198457066,44.51 -6.86389695917364,33.9811971686067,44.51 -6.86389656160259,33.9811958488026,44.51 -6.86389625815377,33.9811945042347,44.51 -6.8638960503406,33.9811931416043,44.51 -6.86389593919875,33.9811917677071,44.51 -6.86389592528258,33.9811903893933,44.51 -6.86389600866141,33.9811890135315,44.51 -6.86389618891923,33.9811876469838,44.51 -6.863896465158,33.981186296563,44.51 -6.86389683599998,33.981184969,44.51 -6.86394572799998,33.9811336120001,44.51</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Séparateur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">104</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86383159599996,33.9810670160001,45.1 -6.86383359099994,33.9810683220001,45.1 -6.86383400650833,33.9810686436436,45.0908510638354 -6.8638343989289,33.9810689930847,45.0817021276651 -6.86383476640572,33.9810693686686,45.0725531914947 -6.86383510720134,33.9810697686189,45.0634042553243 -6.86383541970395,33.9810701910464,45.054255319154 -6.86383570243583,33.9810706339504,45.0451063829836 -6.86383595406005,33.9810710952406,45.0359574468132 -6.86383617338674,33.9810715727308,45.0268085106428 -6.86383635937841,33.9810720641672,45.0176595744725 -6.8638365111558,33.9810725672232,45.0085106383021 -6.86383662800108,33.9810730795216,44.9993617021317 -6.86383670936175,33.9810735986393,44.9902127659613 -6.86383675485308,33.9810741221208,44.981063829791 -6.86383676425976,33.9810746474905,44.9719148936206 -6.86383673753767,33.9810751722653,44.9627659574502 -6.86383667481277,33.9810756939605,44.9536170212798 -6.86383657638203,33.9810762101133,44.9444680851095 -6.86383644271063,33.9810767182807,44.9353191489391 -6.86383627443092,33.9810772160599,44.9261702127687 -6.86383607233847,33.9810777010971,44.9170212765983 -6.86383583738916,33.9810781710985,44.907872340428 -6.86383557069371,33.9810786238413,44.8987234042576 -6.86383527351381,33.9810790571846,44.8895744680872 -6.86383494725442,33.9810794690784,44.8804255319168 -6.86383459345848,33.9810798575763,44.8712765957465 -6.86383421379901,33.9810802208412,44.8621276595761 -6.86383381007136,33.9810805571524,44.8529787234057 -6.86383338418477,33.9810808649236,44.8438297872354 -6.86383293815334,33.9810811426978,44.834680851065 -6.86383247408617,33.9810813891599,44.8255319148946 -6.86383199417764,33.9810816031459,44.8163829787242 -6.86383150069764,33.9810817836442,44.8072340425539 -6.86383099597924,33.9810819298,44.7980851063835 -6.86383048240941,33.981082040922,44.7889361702131 -6.86382996241696,33.9810821164865,44.7797872340427 -6.8638294384607,33.9810821561368,44.7706382978724 -6.86382891301855,33.981082159682,44.761489361702 -6.86382838857503,33.9810821271058,44.7523404255316 -6.8638278676101,33.9810820585662,44.7431914893612 -6.8638273525878,33.9810819543836,44.7340425531909 -6.86382684594309,33.9810818150508,44.7248936170205 -6.86382635007226,33.9810816412282,44.7157446808501 -6.86382586731997,33.9810814337379,44.7065957446797 -6.8638253999693,33.9810811935604,44.6974468085094 -6.86382495023005,33.9810809218298,44.688297872339 -6.86382452022916,33.9810806198335,44.6791489361686 -6.86382411199997,33.981080289,44.67 -6.86334353099994,33.9807644730001,44.67 -6.86334327757947,33.9807640196923,44.68 -6.86334305649593,33.9807635497645,44.69 -6.86334286883334,33.9807630655214,44.7 -6.86334271551118,33.9807625693338,44.71 -6.86334259728073,33.9807620636347,44.72 -6.86334251472203,33.9807615509035,44.73 -6.86334246823935,33.980761033652,44.74 -6.86334245806051,33.980760514416,44.75 -6.86334248423532,33.9807599957403,44.76 -6.86334254663575,33.9807594801678,44.77 -6.86334264495599,33.9807589702232,44.78 -6.86334277871379,33.9807584684077,44.79 -6.86334294725384,33.9807579771805,44.8 -6.86334314975011,33.98075749895,44.81 -6.8633433852101,33.980757036059,44.82 -6.86334365247944,33.9807565907758,44.83 -6.86334395024869,33.9807561652833,44.84 -6.8633442770581,33.9807557616677,44.85 -6.86334463130583,33.9807553819082,44.86 -6.86334501125589,33.980755027862,44.87 -6.86334541504584,33.9807547012697,44.88 -6.86334584069686,33.9807544037267,44.89 -6.86334628612235,33.9807541366954,44.9 -6.86334674913951,33.9807539014837,44.91 -6.8633472274787,33.980753699243,44.92 -6.86334771879569,33.9807535309646,44.93 -6.86334822068238,33.9807533974763,44.94 -6.86334873067903,33.9807532994291,44.95 -6.86334924628568,33.9807532373034,44.96 -6.86334976497528,33.9807532114064,44.97 -6.86335028420603,33.980753221862,44.98 -6.86335080143249,33.9807532686209,44.99 -6.86335131411988,33.980753351454,45.0 -6.86335181975551,33.9807534699539,45.01 -6.86335231586099,33.9807536235421,45.02 -6.8633528000048,33.9807538114637,45.03 -6.86335326981407,33.9807540327984,45.04 -6.86335372298617,33.9807542864619,45.05 -6.86335415729991,33.9807545712083,45.06 -6.8633545706266,33.9807548856461,45.07 -6.86335496094052,33.9807552282299,45.08 -6.86335532632858,33.9807555972839,45.09 -6.86335566499997,33.980755991,45.1 -6.86383159599996,33.9810670160001,45.1</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Epicerie M'Barek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">106</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86290938899998,33.9807214250001,178.8069 -6.86282852299996,33.9808071580001,178.9569 -6.8627906099999,33.9807823300001,178.8969 -6.8628669,33.9806951370001,178.7069 -6.86290938899998,33.9807214250001,178.8069</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Logement Sécurité</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">107</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86292148399997,33.9806995770001,178.5169 -6.86287568699993,33.9806683850001,178.5369 -6.86289647499996,33.9806358110001,178.4869 -6.86295302099995,33.980667693,178.5269 -6.86292148399997,33.9806995770001,178.5169</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Responsable Economat</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">108</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86250133599998,33.980620248,0 -6.86258015499993,33.980537241,0 -6.86268469599997,33.9806051850001,194.9019 -6.86260244299996,33.9806874600001,194.7819 -6.86250133599998,33.980620248,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Logements Logistique</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">109</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/logistique2.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86586061199995,33.979440605,46.827 -6.86561288899998,33.9796972680001,45.185 -6.86545826699995,33.979593407,46.827 -6.86570599,33.979336743,46.827 -6.86586061199995,33.979440605,46.827</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Division Logistique</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="OBJECTID">110</SimpleData>
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/logistique.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86623529899992,33.9787832750001,48.593 -6.86628261099997,33.9787332400001,48.798 -6.86643950599995,33.9788423310001,48.645 -6.86641385599995,33.9788693780001,47.911 -6.86642934299994,33.9788794620001,47.941 -6.86640741,33.9789028380001,47.809 -6.86639175699997,33.9788926460001,47.809 -6.86638729,33.978897406,47.809 -6.86640289699994,33.9789075670001,47.809 -6.86637957499994,33.978932426,47.809 -6.86636395799997,33.9789220440001,47.809 -6.86633461199995,33.9789530090001,48.593 -6.86630869499993,33.9789357430001,48.593 -6.86636638399995,33.978874874,48.593 -6.86623529899992,33.9787832750001,48.593</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="image">./assets/img/popup/allée.png</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86702540551805,33.978080613877,0 -6.86701633673836,33.978097425234,0 -6.8670066992621,33.9781117991917,0 -6.86699233427043,33.9781252178137,0 -6.8669742451056,33.9781359014078,0 -6.86695997825438,33.9781379006965,0 -6.86695009100882,33.9781346708689,0 -6.86695001155837,33.978128463679,0 -6.86695670500604,33.9781188583049,0 -6.86696891543983,33.9781088986126,0 -6.86698137843589,33.9780976747425,0 -6.86699811185233,33.9780803271592,0 -6.86700649341944,33.9780689970694,0 -6.86701401054168,33.9780550286703,0 -6.8670178442532,33.9780453265763,0 -6.86702340927675,33.9780353648557,0 -6.8670302709633,33.9780293605977,0 -6.86703901632467,33.9780254563949,0 -6.86705131068212,33.9780239631116,0 -6.86705943033414,33.9780227104549,0 -6.86706660814773,33.9780204077701,0 -6.86707310808882,33.9780147730912,0 -6.86708031597777,33.9779938260962,0 -6.86709301112424,33.9779778373722,0 -6.86710196585381,33.977971203901,0 -6.86711701316678,33.9779633764865,0 -6.86712938490718,33.9779602949148,0 -6.86713816204265,33.9779588735811,0 -6.86714434100153,33.9779606098108,0 -6.86714770342733,33.9779637144138,0 -6.86713966773686,33.9779734334937,0 -6.86712929783152,33.9779840281705,0 -6.8671175355487,33.9779965484709,0 -6.86710033574285,33.9780156302843,0 -6.86709235463129,33.9780257966586,0 -6.86708622541101,33.9780355802112,0 -6.867083986548,33.978043904436,0 -6.86707732939325,33.9780582519203,0 -6.86707275631293,33.9780674517412,0 -6.86706552148201,33.9780748433722,0 -6.86706155372725,33.9780778909799,0 -6.8670481081456,33.9780810635001,0 -6.86704596050139,33.9780812454106,0 -6.86703650548086,33.9780793347441,0 -6.86703330682077,33.9780775720313,0 -6.86703110458789,33.978077306644,0 -6.8670291981049,33.9780772421666,0 -6.86702540551805,33.978080613877,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86652421460326,33.9786054907029,0 -6.8665193456851,33.9786144895905,0 -6.86651350763469,33.9786222147974,0 -6.86650084651578,33.9786351500922,0 -6.86649303149737,33.9786411220772,0 -6.86648425428249,33.9786425433653,0 -6.86648110572528,33.9786389687099,0 -6.8664838111063,33.9786289102869,0 -6.86648727622045,33.9786228548066,0 -6.8664948024224,33.9786134048951,0 -6.8664994187695,33.9786056701839,0 -6.86650646957531,33.978593436029,0 -6.86650993468647,33.978587380548,0 -6.86651720830968,33.9785791948105,0 -6.86652457969526,33.9785729214571,0 -6.86653312513097,33.9785629332945,0 -6.86654204819484,33.9785538169891,0 -6.86655022494777,33.9785474754209,0 -6.86656422139918,33.9785377034476,0 -6.86656941089575,33.9785346653606,0 -6.86659564719207,33.978522952849,0 -6.8666113545955,33.9785094205851,0 -6.86662059621202,33.9784984696071,0 -6.86662198860603,33.9784965439885,0 -6.86663305440437,33.9784983182585,0 -6.86663537477631,33.978503996702,0 -6.86663168887709,33.9785137992381,0 -6.86662324815382,33.9785224227765,0 -6.86660775909724,33.9785377442329,0 -6.86659902261879,33.9785461668584,0 -6.86658857517577,33.9785583497684,0 -6.86658011162695,33.9785690088815,0 -6.86657142972936,33.9785778788029,0 -6.86656105968269,33.9785884734303,0 -6.86655422073715,33.9785924420835,0 -6.86654072942168,33.9785996857044,0 -6.866535874373,33.9786021305613,0 -6.86652421460326,33.9786054907029,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Hal</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="group">formation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86541177546115,33.9757345026416,0 -6.86556627446133,33.975571730642,0 -6.86550996746151,33.9755346356421,0 -6.86540716746133,33.975643400642,0 -6.86530593446164,33.9755768426424,0 -6.86531938946164,33.9755626676424,0 -6.8653316174592,33.9755680352564,0 -6.86534306392572,33.9755563680329,0 -6.86521965170034,33.9754703381835,0 -6.86518946316048,33.975501005873,0 -6.86510823746212,33.9754464606432,0 -6.86505680746206,33.9755006436432,0 -6.86541177546115,33.9757345026416,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Séparateur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="info"></SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86745124852654,33.9773260101774,0 -6.86773994238793,33.9770249929167,0 -6.86775532818625,33.9770352911116,0 -6.8674665251953,33.9773371467953,0 -6.86745124852654,33.9773260101774,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">16</SimpleData>
+		<SimpleData name="color">#003154</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86410966945286,33.9789649268116,50.7024 -6.86422477822752,33.9788409388164,0 -6.86436671899997,33.978933748,0 -6.86442856,33.9789741880001,0 -6.86428520399994,33.979124122,0 -6.86408437699993,33.978991981,0 -6.86410966945286,33.9789649268116,50.7024</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Administration IAV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86412305826639,33.9806543439542,0 -6.86429124745125,33.9804866666266,0 -6.86428694245126,33.9804838306266,0 -6.86428393245126,33.9804870206266,0 -6.86413204445165,33.9803867136272,0 -6.86413505245167,33.9803835216272,0 -6.86413083645165,33.9803806956272,0 -6.8640774324516,33.9804372486271,0 -6.86405789145154,33.9804579536271,0 -6.86396443145139,33.980556997627,0 -6.86412305826639,33.9806543439542,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Terrain du tenis 01</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86705767845922,33.9720988806852,0 -6.86722042817215,33.9719281107279,0 -6.86731333509775,33.9719900110331,0 -6.8671491535553,33.9721622441417,0 -6.86705767845922,33.9720988806852,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Terrain du tenis 02</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#8cba31</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="group">sport</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86720277991737,33.972192586721,0 -6.86736051790481,33.9720269372105,0 -6.86745485692552,33.9720873743715,0 -6.86729584917792,33.9722558150446,0 -6.86720277991737,33.972192586721,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Allée</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="image">./assets/img/popup/allée.png</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="height_half">7</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86405790167734,33.9804579704407,0 -6.86398247324617,33.9804063303437,0 -6.86396206022586,33.9803947358138,0 -6.8637161072262,33.9802325248143,0 -6.86373671922622,33.9802109608144,0 -6.86398125222591,33.9803728318138,0 -6.86403496101248,33.9804090535107,0 -6.86407744267742,33.9804372654407,0 -6.86405790167734,33.9804579704407,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>wall</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">5</SimpleData>
+		<SimpleData name="color">#082522</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86420931422478,33.981207328812,0 -6.86526462922554,33.9801036748131,0 -6.86615150222616,33.9791761488139,0 -6.86788921124955,33.9773553081216,47.5406 -6.86916293322826,33.9760190138167,0 -6.87032681911241,33.9748193980706,0 -6.87044293887535,33.9747032933125,0 -6.87049018345652,33.9746296066871,0 -6.87046972323821,33.9745840980558,0 -6.86973589049879,33.9741130569433,0 -6.86974924431839,33.9737103648021,0 -6.86961986312212,33.9736297430065,0 -6.86961217080203,33.9735854508889,0 -6.86968434535301,33.9727670012538,0 -6.86935657171705,33.9725536578371,0 -6.86935851941524,33.9725516540574,0 -6.86968715166353,33.9727661156482,0 -6.86961601817518,33.973585745121,0 -6.86962294612676,33.9736280790087,0 -6.86975237409701,33.9737091832681,0 -6.86974396438659,33.974111140019,0 -6.87047375281996,33.9745795871906,0 -6.87049836928269,33.9746297386504,0 -6.87044938943502,33.9747069503179,0 -6.87029196795256,33.9748675421482,0 -6.86917423423124,33.9760264917072,0 -6.86421353822478,33.9812101208121,0 -6.86420931422478,33.981207328812,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>wall</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">5</SimpleData>
+		<SimpleData name="color">#082522</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86399352622471,33.981372428812,0 -6.86387348522462,33.9814978158119,0 -6.86285017322597,33.9808263038141,0 -6.86282562552035,33.9808098872381,0 -6.86253592575002,33.9807696571083,0 -6.86124908455687,33.9806562546814,0 -6.86124914281795,33.9806584258615,0 -6.86253547358535,33.9807737887107,0 -6.86282397186404,33.980815701086,0 -6.86285731790229,33.980836673212,0 -6.86387430047346,33.9815044341179,0 -6.86387776722464,33.9815005738119,0 -6.8639871882247,33.981386255812,0 -6.86399798940104,33.9813749838366,0 -6.86399352622471,33.981372428812,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>wall</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">5</SimpleData>
+		<SimpleData name="color">#082522</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.8611900096137,33.9806484781381,0 -6.86069510820021,33.9806005219056,0 -6.86158899722796,33.9796693128174,0 -6.86171174122806,33.9795382398176,0 -6.86195859877384,33.9792846879429,0 -6.86256564766761,33.9796921971337,0 -6.86459878418271,33.9775613435932,0 -6.8647868919158,33.9775011230633,0 -6.86582629808999,33.9764182813955,0 -6.86590443188493,33.9760690694807,0 -6.86490819393806,33.9754237109378,0 -6.86501393156855,33.9753159207232,0 -6.86425697984648,33.9748761864942,0 -6.86416398953073,33.9748146796858,0 -6.86417192794539,33.9748076569156,0 -6.86426455381345,33.9748699945516,0 -6.86502086440614,33.9753066603619,0 -6.86503032841846,33.975312942149,0 -6.86492909889001,33.9754219837545,0 -6.86590929555878,33.9760627670866,0 -6.86583531643206,33.9764207545646,0 -6.86479827104977,33.9775070798662,0 -6.86460788753901,33.9775710754786,0 -6.86256636029604,33.9797041543916,0 -6.86195959682452,33.9792942987752,0 -6.86070992353418,33.9805950815975,0 -6.86119039802007,33.9806452776443,0 -6.8611900096137,33.9806484781381,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>wall</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">5</SimpleData>
+		<SimpleData name="color">#082522</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86411301397654,33.9747712552327,0 -6.86383658507139,33.9745922030463,0 -6.86495656238903,33.9734519125924,0 -6.86566290807043,33.972732866938,0 -6.86745622283471,33.9708349588608,0 -6.86820608804688,33.9713298094242,0 -6.86839633510099,33.9714493376723,0 -6.86836162620075,33.9714901708582,0 -6.86814039400823,33.971741388885,0 -6.86872760388391,33.9721422542447,0 -6.8687313955961,33.9721378926397,0 -6.86815107660986,33.9717397701745,0 -6.8684067994469,33.9714468024301,0 -6.86745665953795,33.9708210396543,0 -6.86565355573117,33.9727226142787,0 -6.8649388903429,33.9734440859795,0 -6.86381869917516,33.9745964345161,0 -6.86410692404979,33.9747769539252,0 -6.86411301397654,33.9747712552327,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>wall</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">5</SimpleData>
+		<SimpleData name="color">#082522</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">1</SimpleData>
+		<SimpleData name="group">structure</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.8693149460577,33.9725231695587,0 -6.86931318661229,33.9725249673338,0 -6.8689764721483,33.9723117027656,0 -6.86897989871654,33.972307857437,0 -6.8693149460577,33.9725231695587,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Séparateur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iav3D">
+		<SimpleData name="height">8</SimpleData>
+		<SimpleData name="color">#005c53</SimpleData>
+		<SimpleData name="hover_color">#53faff</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.86324256059388,33.9807403101357,0 -6.86329308210498,33.9806883556331,0 -6.86328521206098,33.980686090397,0 -6.86328093984945,33.9806859892401,0 -6.86327609905198,33.9806857819308,0 -6.86327080145825,33.9806863847686,0 -6.86326640182343,33.9806867572825,0 -6.86326068469638,33.9806884757003,0 -6.86325647137731,33.9806903753799,0 -6.86323226244935,33.9807151063631,0 -6.86323199796275,33.980720529051,0 -6.8632332866138,33.9807271053015,0 -6.86323615696942,33.9807352178913,0 -6.86324256059388,33.9807403101357,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
