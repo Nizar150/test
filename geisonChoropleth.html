@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Choropleth Tutorial - Leaflet</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+	<link rel="stylesheet" href="leaflet.css" />
+	<script src="leaflet.js"></script>
+    <script src="province.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet-measure/dist/leaflet-measure.css" />
+<script src="https://unpkg.com/leaflet-measure/dist/leaflet-measure.js"></script>
+
+	<style>
+		#map {
+			width: 600px;
+			height: 400px;
+		}
+		.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: left; /* Add this line to align text to the left */
+}
+#mini-map {
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            z-index: 1000;
+        }
+	</style>
+
+	
+</head>
+<body>
+
+<div id='map'></div>
+
+<script type="text/javascript" src="region.js"></script>
+
+<script type="text/javascript">
+
+	var map = L.map('map').setView([33.97654572387811, -6.866889599963044], 4);
+
+	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(map);
+    
+    
+	// get color depending on population density value
+	function getColor(attribut) {
+    return attribut > 1000000 ? '#d95f0e' :
+           attribut > 800000 ? '#fe9929' :
+           attribut > 500000 ? '#fec44f' :
+           attribut > 100000 ? '#fee391' :
+                              '#d95f0e';
+}
+
+function Monstyle(feature) {
+    return {
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7,
+        fillColor: getColor(feature.properties.Population)
+    };
+}
+
+function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+    }
+    info.update(layer.feature.properties);
+}
+
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+
+function zoomToFeature(e) {
+    map.fitBounds(e.target.getBounds());
+}
+
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+
+var info = L.control();
+
+info.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (props) {
+    this._div.innerHTML = '<h4>Population totale de la région</h4>' + (props ?
+        'province : <b>' + props.Nom_Provin + '</b> <br />Population : ' + props.Population + ' .....</sup>'
+        : 'Merci de mettre le curseur sur la région');
+};
+
+info.addTo(map);
+
+var geojson = L.geoJson(province, {
+    style: Monstyle,
+    onEachFeature: onEachFeature
+}).addTo(map);
+
+		var measureControl = new L.Control.Measure({
+            position: 'bottomright',
+            primaryLengthUnit: 'meters',
+            secondaryLengthUnit: 'kilometers',
+            primaryAreaUnit: 'sqmeters',
+            secondaryAreaUnit: 'hectares'
+        });
+
+        measureControl.addTo(map);
+
+        var measureButton = L.easyButton('fa-ruler', function() {
+            measureControl.toggle();
+        });
+
+        measureButton.addTo(map);
+//var info = L.control();
+
+// info.onA
+//dd = function(map) {
+//     this._div = L.DomUtil.create('div', 'info');
+//     this.update();
+//     return this._div;
+// };
+
+// info.update = function(feature) {
+//     var table = '<h4>Province Info</h4><table>';
+//     if (feature) {
+//         for (var key in feature.properties) {
+//             table += '<tr><td>' + key + '</td><td>' + feature.properties[key] + '</td></tr>';
+//         }
+//     } else {
+//         table += '<tr><td colspan="2">Hover over a province</td></tr>';
+//     }
+//     table += '</table>';
+//     this._div.innerHTML = table;
+// };
+// info.addTo(map);
+</script>
+
+</body>
+</html>
